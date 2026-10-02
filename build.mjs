@@ -49,6 +49,17 @@ page('/tools/cash-flow','Illustrative rental cash-flow calculator','Calculate mo
 page('/404','Page not found','This address could not be found.',`<section class="page-intro"><h1>That page isn't here.</h1><p>Find the question you were looking for in the answer library.</p><a class="button" href="/library">Browse answers →</a></section>`,{noindex:true});
 for(const file of fs.readdirSync('public')) fs.copyFileSync(path.join('public',file),path.join('dist',file));
 fs.writeFileSync('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls.filter(u=>u!=='/404').map(u=>`<url><loc>${origin}${u}</loc><lastmod>${date}</lastmod></url>`).join('')+'</urlset>');
-fs.writeFileSync('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
+const sitemapXml=list=>'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+list.map(u=>`  <url><loc>${origin}${u}</loc><lastmod>${date}</lastmod></url>`).join('\n')+'\n</urlset>\n';
+fs.mkdirSync('dist/sitemaps',{recursive:true});
+const sitemapFiles=[];
+for(const group of groups){
+ const file='/sitemaps/'+group.id+'.xml';
+ fs.writeFileSync('dist'+file,sitemapXml(group.entries.map(a=>'/answers/'+a.slug)));
+ sitemapFiles.push(file);
+}
+fs.writeFileSync('dist/sitemaps/site.xml',sitemapXml(urls.filter(u=>u!=='/404'&&!u.startsWith('/answers/'))));
+sitemapFiles.push('/sitemaps/site.xml');
+fs.writeFileSync('dist/sitemap-index.xml','<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+sitemapFiles.map(u=>`  <sitemap><loc>${origin}${u}</loc></sitemap>`).join('\n')+'\n</sitemapindex>\n');
+fs.writeFileSync('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap-index.xml\n`);
 fs.writeFileSync('dist/content-manifest.json',JSON.stringify({answerCount:articles.length,topicCount:groups.filter(g=>g.entries.length).length,articles:articles.map(({question,slug,topic})=>({question,slug,topic}))},null,2));
 console.log(`Built ${articles.length} answers, ${groups.filter(g=>g.entries.length).length} hubs, ${urls.length} HTML pages.`);
