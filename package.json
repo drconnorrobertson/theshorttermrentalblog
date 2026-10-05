@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.mjs && node build-blog.mjs",
+    "build": "node build.mjs && node build-blog.mjs && node add-meta-pixel.mjs",
     "check": "node check.mjs"
   },
   "engines": {
