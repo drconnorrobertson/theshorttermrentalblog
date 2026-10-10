@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && node scripts/brand-check.mjs dist",
+  "buildCommand": "npm run build && node scripts/instrument-conversions.mjs dist && node scripts/brand-check.mjs dist",
   "outputDirectory": "dist",
   "framework": null,
   "cleanUrls": true,
