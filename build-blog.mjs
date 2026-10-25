@@ -89,7 +89,9 @@ ${schemas.map(item => `<script type="application/ld+json">${JSON.stringify(item)
 // Generate individual blog post pages
 for (const post of posts) {
   const paragraphs = post.body.split('\n\n').filter(Boolean);
-  const bodyHtml = paragraphs.map(p => `<p>${esc(p)}</p>`).join('\n');
+  const bodyHtml = post.sections ? post.sections.map(s => `<section><h2>${esc(s.heading)}</h2>${s.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</section>`).join('\n') : paragraphs.map(p => `<p>${esc(p)}</p>`).join('\n');
+  const sourceHtml = post.sources?.length ? `<section><h2>Sources and scope</h2><p>Primary sources checked October 25, 2026. Operating examples and proposed workflows are editorial guidance, not reported client outcomes.</p><ul>${post.sources.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
+  const linkHtml = post.relatedLinks?.length ? `<section><h2>Practical next steps</h2><ul>${post.relatedLinks.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
 
   // FAQ section
   const faqHtml = post.faqs.length ? `
@@ -131,14 +133,14 @@ ${related.map(r => `
 </aside>`;
 
   // Schema
-  const wordCount = post.body.split(/\s+/).length;
+  const wordCount = (post.body + ' ' + post.faqs.map(f => f.q + ' ' + f.a).join(' ')).split(/\s+/).filter(Boolean).length;
   const blogPostSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated || post.date,
     inLanguage: 'en',
     wordCount,
     mainEntityOfPage: origin + '/blog/' + post.slug,
@@ -185,8 +187,10 @@ ${related.map(r => `
     `<article class="article">
 <a class="eyebrow" href="/blog/category/${categories[post.category].slug}">${esc(post.categoryName)}</a>
 <h1>${esc(post.title)}</h1>
-<p class="fine">Published ${post.date} &middot; ${Math.max(1, Math.ceil(wordCount / 200))} minute read</p>
+<p class="fine">Published ${post.date}${post.updated ? ' · Updated ' + post.updated : ''} &middot; ${Math.max(1, Math.ceil(wordCount / 200))} minute read</p>
 ${bodyHtml}
+${sourceHtml}
+${linkHtml}
 ${ctaHtml}
 ${faqHtml}
 <p class="fine">This article is general education. Apply it to your specific location, agreements, and circumstances. Where a decision requires professional advice, use a qualified adviser.</p>
@@ -265,10 +269,12 @@ for (const [id, cat] of Object.entries(categories)) {
   );
 }
 
+const blogLastmod = url => { const post = posts.find(p => url === '/blog/' + p.slug); return post ? (post.updated || post.date) : posts.map(p => p.updated || p.date).sort().at(-1); };
+
 // Update sitemap with blog URLs
 const existingSitemap = fs.readFileSync('dist/sitemap.xml', 'utf8');
 const blogSitemapEntries = blogUrls.map(u =>
-  `<url><loc>${origin}${u}</loc><lastmod>${posts[0].date}</lastmod></url>`
+  `<url><loc>${origin}${u}</loc><lastmod>${blogLastmod(u)}</lastmod></url>`
 ).join('');
 
 // Append blog entries to main sitemap
@@ -280,7 +286,7 @@ fs.writeFileSync('dist/sitemap.xml', updatedSitemap);
 // Create blog-specific sitemap
 fs.writeFileSync('dist/sitemaps/blog.xml',
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  blogUrls.map(u => `  <url><loc>${origin}${u}</loc><lastmod>${posts[0].date}</lastmod></url>`).join('\n') +
+  blogUrls.map(u => `  <url><loc>${origin}${u}</loc><lastmod>${blogLastmod(u)}</lastmod></url>`).join('\n') +
   '\n</urlset>\n'
 );
 
