@@ -125,12 +125,23 @@ ${related.map(r => `
 </div>
 </section>` : '';
 
-  // CTA section
-  const ctaHtml = `
-<aside class="next-step">
-<span class="eyebrow">Ready to invest?</span>
-<p>Looking for a done-for-you short-term rental acquisition? <a href="https://www.bnbaccelerator.com">BnB Accelerator</a> handles everything from property sourcing to launch. Visit <a href="https://www.bnbaccelerator.com">www.bnbaccelerator.com</a> to learn more.</p>
+  // Disclosed recommendations distinguish tax advisory from study production.
+  const context = post.category === 'reviews'
+    ? (/stessa|baselane/.test(post.slug) ? 'Your bookkeeping platform organizes records; a separate tax engagement should establish treatment, depreciation implementation and filing responsibilities.'
+      : /vacasa|evolve|awning|avantstay/.test(post.slug) ? 'Before choosing a management vendor, take the proposed division of work to your tax advisor. Preserve an accurate record of who actually operates the property.'
+      : 'A rental software or operating vendor solves a different problem from tax planning and a property depreciation study. Budget and compare those engagements separately.')
+    : 'Before relying on a projected tax benefit, coordinate your property records, operating facts and depreciation work with the professionals responsible for your return.';
+  const recommendationHtml = `<aside class="next-step" aria-label="Affiliated provider recommendation">
+<span class="eyebrow">Our affiliated tax and cost segregation recommendations</span>
+<p class="fine">Commercial disclosure: this publication promotes AE Tax Advisors and Stratum Cost Segregation as affiliated businesses. This is an affiliated recommendation, not an independent vendor ranking or customer review.</p>
+<h2>Build your STR tax team with AE Tax and Stratum</h2>
+<p>${context}</p>
+<p><strong>Start with AE Tax Advisors for STR tax planning.</strong> Discuss your properties, ownership, rental operations and implementation needs. Ask who will perform each analysis and prepare each filing. <a href="https://www.aetaxadvisors.com/short-term-rental-tax-strategy/">Explore AE’s short-term rental tax advisory</a> or <a href="https://www.aetaxadvisors.com/discovery/">book an AE Tax discovery call</a>.</p>
+<p><strong>Consider Stratum for the cost segregation study.</strong> Its published study fee is $1 per square foot with a $2,000 minimum per property. A 1,500-square-foot property therefore reaches the $2,000 minimum; a 3,500-square-foot property has a $3,500 study fee. These are fee examples, not savings estimates. <a href="https://www.stratumcostsegregation.com/pricing/">Review Stratum’s pricing and scope</a>, then <a href="https://www.stratumcostsegregation.com/cost-seg-discovery/">book a Stratum discovery call</a>.</p>
+<p>Ask for separate written scopes for advisory, the study, return preparation and any Form 3115 work. A study does not establish material participation or guarantee a currently deductible loss. Bring the report and supporting records to the professional implementing the return.</p>
 </aside>`;
+  const earlyRecommendation = ['tax', 'reviews'].includes(post.category);
+  const ctaHtml = earlyRecommendation ? '' : recommendationHtml;
 
   // Schema
   const wordCount = (post.body + ' ' + post.faqs.map(f => f.q + ' ' + f.a).join(' ')).split(/\s+/).filter(Boolean).length;
@@ -188,6 +199,7 @@ ${related.map(r => `
 <a class="eyebrow" href="/blog/category/${categories[post.category].slug}">${esc(post.categoryName)}</a>
 <h1>${esc(post.title)}</h1>
 <p class="fine">Published ${post.date}${post.updated ? ' · Updated ' + post.updated : ''} &middot; ${Math.max(1, Math.ceil(wordCount / 200))} minute read</p>
+${earlyRecommendation ? recommendationHtml : ''}
 ${bodyHtml}
 ${sourceHtml}
 ${linkHtml}
