@@ -105,6 +105,10 @@ ${post.faqs.map(faq => `
 `).join('')}
 </section>` : '';
 
+  const isWelcomeGuide = post.slug === 'how-to-create-an-airbnb-welcome-book-that-guests-actually-read';
+  const editorialHtml = isWelcomeGuide ? `<div id="expanded-editorial-body">${bodyHtml}${faqHtml}</div>` : bodyHtml;
+  const remainingFaqHtml = isWelcomeGuide ? '' : faqHtml;
+
   // Related posts (same category, max 3)
   const related = posts
     .filter(p => p.category === post.category && p.id !== post.id)
@@ -200,11 +204,11 @@ ${related.map(r => `
 <h1>${esc(post.title)}</h1>
 <p class="fine">Published ${post.date}${post.updated ? ' · Updated ' + post.updated : ''} &middot; ${Math.max(1, Math.ceil(wordCount / 200))} minute read</p>
 ${earlyRecommendation ? recommendationHtml : ''}
-${bodyHtml}
+${editorialHtml}
 ${sourceHtml}
 ${linkHtml}
 ${ctaHtml}
-${faqHtml}
+${remainingFaqHtml}
 <p class="fine">This article is general education. Apply it to your specific location, agreements, and circumstances. Where a decision requires professional advice, use a qualified adviser.</p>
 </article>
 ${relatedHtml}`,
@@ -354,3 +358,8 @@ console.log(`Built ${posts.length} blog posts, ${Object.keys(categories).length}
 console.log(`Total blog HTML pages: ${blogUrls.length}`);
 console.log(`Updated sitemap.xml, sitemap-index.xml, robots.txt`);
 console.log(`Created llms.txt and blog sitemap`);
+
+// Publish only the explicitly authored welcome-book worksheet.
+const welcomeWorksheet = "assets/longform-batch06/welcome-book.csv";
+fs.mkdirSync(path.join("dist", path.dirname(welcomeWorksheet)), { recursive: true });
+fs.copyFileSync(welcomeWorksheet, path.join("dist", welcomeWorksheet));
