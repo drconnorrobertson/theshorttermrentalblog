@@ -90,7 +90,7 @@ ${schemas.map(item => `<script type="application/ld+json">${JSON.stringify(item)
 for (const post of posts) {
   const paragraphs = post.body.split('\n\n').filter(Boolean);
   const bodyHtml = post.sections ? post.sections.map(s => `<section><h2>${esc(s.heading)}</h2>${s.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</section>`).join('\n') : paragraphs.map(p => `<p>${esc(p)}</p>`).join('\n');
-  const sourceHtml = post.sources?.length ? `<section><h2>Sources and scope</h2><p>Primary sources checked October 25, 2026. Operating examples and proposed workflows are editorial guidance, not reported client outcomes.</p><ul>${post.sources.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
+  const sourceHtml = post.sources?.length ? `<section><h2>Sources and scope</h2><p>Primary sources checked ${esc(post.sourcesChecked || "October 25, 2026")}. Operating examples and proposed workflows are editorial guidance, not reported client outcomes.</p><ul>${post.sources.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
   const linkHtml = post.relatedLinks?.length ? `<section><h2>Practical next steps</h2><ul>${post.relatedLinks.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
 
   // FAQ section
@@ -106,8 +106,9 @@ ${post.faqs.map(faq => `
 </section>` : '';
 
   const isWelcomeGuide = post.slug === 'how-to-create-an-airbnb-welcome-book-that-guests-actually-read';
-  const editorialHtml = isWelcomeGuide ? `<div id="expanded-editorial-body">${bodyHtml}${faqHtml}</div>` : bodyHtml;
-  const remainingFaqHtml = isWelcomeGuide ? '' : faqHtml;
+  const isCancellationGuide = post.slug === 'how-to-handle-airbnb-cancellations-without-losing-revenue';
+  const editorialHtml = isWelcomeGuide ? `<div id="expanded-editorial-body">${bodyHtml}${faqHtml}</div>` : isCancellationGuide ? `<div id="editorial-body">${bodyHtml}${faqHtml}</div>` : bodyHtml;
+  const remainingFaqHtml = (isWelcomeGuide || isCancellationGuide) ? '' : faqHtml;
 
   // Related posts (same category, max 3)
   const related = posts
@@ -148,7 +149,7 @@ ${related.map(r => `
   const ctaHtml = earlyRecommendation ? '' : recommendationHtml;
 
   // Schema
-  const wordCount = (post.body + ' ' + post.faqs.map(f => f.q + ' ' + f.a).join(' ')).split(/\s+/).filter(Boolean).length;
+  const wordCount = isCancellationGuide ? ((post.body + ' Frequently Asked Questions ' + post.faqs.map(f => f.q + ' ' + f.a).join(' ')).match(/\b[\w’-]+\b/g) || []).length : (post.body + ' ' + post.faqs.map(f => f.q + ' ' + f.a).join(' ')).split(/\s+/).filter(Boolean).length;
   const blogPostSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -363,3 +364,8 @@ console.log(`Created llms.txt and blog sitemap`);
 const welcomeWorksheet = "assets/longform-batch06/welcome-book.csv";
 fs.mkdirSync(path.join("dist", path.dirname(welcomeWorksheet)), { recursive: true });
 fs.copyFileSync(welcomeWorksheet, path.join("dist", welcomeWorksheet));
+
+// Publish only the named cancellation teaching worksheet.
+const cancellationWorksheet = "assets/longform-batch22/cancellation.csv";
+fs.mkdirSync(path.join("dist", path.dirname(cancellationWorksheet)), { recursive: true });
+fs.copyFileSync(cancellationWorksheet, path.join("dist", cancellationWorksheet));

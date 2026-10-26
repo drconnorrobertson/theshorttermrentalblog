@@ -1,0 +1,7 @@
+fictional_id,record_view,component,currency,amount,limit
+G1,guest,accommodation,USD,800,Fictional recorded component
+G2,guest,cleaning,USD,100,Not a platform fee rule
+G3,guest,other,USD,100,Allocation unspecified
+G4,guest,refund,USD,-400,Aggregate only;no entitlement conclusion
+P1,payout,recorded payout,USD,650,Separate record view
+P2,payout,adjustment,USD,-250,No accounting treatment asserted
