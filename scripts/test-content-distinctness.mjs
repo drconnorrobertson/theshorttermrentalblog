@@ -17,6 +17,10 @@ test('adding another copy to a known body group is rejected', () => {
   const expanded = [...original, post('third', 'Third topic', 'An explanation of third topic. Shared detail.')];
   assert.equal(auditDistinctness(expanded, duplicateGroups(original)).errors.length, 1);
 });
+test('a literal copied body with a different headline is also rejected', () => {
+  const copied = [...original, post('third', 'Unrelated headline', original[0].body)];
+  assert.equal(auditDistinctness(copied, duplicateGroups(original)).errors.length, 1);
+});
 test('moving the same slugs to a different duplicated body requires review', () => {
   const replaced = original.map(p => ({...p, body: 'Another shared template used everywhere.'}));
   assert.equal(auditDistinctness(replaced, duplicateGroups(original)).errors.length, 1);

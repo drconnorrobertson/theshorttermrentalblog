@@ -3,27 +3,30 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 
-export function bodyFingerprint(post) {
+export function bodyFingerprints(post) {
   const body = post.sections
     ? post.sections.flatMap(section => section.paragraphs).join(' ')
     : post.body;
   if (typeof body !== 'string' || !body.trim()) throw Error('Missing body: ' + post.slug);
-  let normalized = body.normalize('NFKC').toLowerCase();
+  const raw = body.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
+  let normalized = raw;
   const title = String(post.title || '').normalize('NFKC').toLowerCase().trim();
   if (title) normalized = normalized.split(title).join('[title]');
   normalized = normalized.replace(/\s+/g, ' ').trim();
-  return createHash('sha256').update(normalized).digest('hex');
+  return [...new Set([raw, normalized])]
+    .map(text => createHash('sha256').update(text).digest('hex'));
 }
 
 export function duplicateGroups(posts) {
   const groups = new Map();
   for (const post of posts) {
-    const fingerprint = bodyFingerprint(post);
-    if (!groups.has(fingerprint)) groups.set(fingerprint, []);
-    groups.get(fingerprint).push(post.slug);
+    for (const fingerprint of bodyFingerprints(post)) {
+      if (!groups.has(fingerprint)) groups.set(fingerprint, new Set());
+      groups.get(fingerprint).add(post.slug);
+    }
   }
-  return [...groups].filter(([, slugs]) => slugs.length > 1)
-    .map(([fingerprint, slugs]) => ({fingerprint, slugs: slugs.sort()}));
+  return [...groups].filter(([, slugs]) => slugs.size > 1)
+    .map(([fingerprint, slugs]) => ({fingerprint, slugs: [...slugs].sort()}));
 }
 
 export function auditDistinctness(posts, legacyGroups) {
