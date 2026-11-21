@@ -2356,24 +2356,24 @@
     {
       "id": 82,
       "slug": "the-str-tax-loophole-explained-how-real-estate-offsets-w-2-income",
-      "title": "The STR Tax Loophole Explained: How Real Estate Offsets W-2 Income",
-      "description": "Complete explanation of the STR tax strategy allowing rental losses to offset W-2 income.",
+      "title": "Can Short-Term Rental Losses Offset W-2 Income? Tests and Records",
+      "description": "Separate average-stay classification, material participation and loss limitations before treating an STR loss as a deduction against wages.",
       "category": "tax",
       "categoryName": "STR Tax Strategy",
       "date": "2026-10-03",
-      "body": "Tax planning for a short-term rental starts with the property, ownership, operating facts and tax year. A strategy name does not establish eligibility or predict an after-tax return. Keep projected deductions, current loss limitations, required cash and professional fees separate when evaluating a proposal.\n\nDepreciation, passive-activity rules, business deductions and entity taxation address different questions. Identify which provision applies to the proposed transaction and which facts remain unresolved. Combining several strategy names in a projection does not establish that the taxpayer qualifies for each treatment.\n\nFor section 469, an average customer-use period of seven days or less can take an activity outside the rental-activity definition. Material participation is a separate test. A nonrental classification does not itself establish a deductible loss against wages: basis, at-risk, passive-activity and other applicable loss rules still require review. Keep booking records and evidence of actual work rather than relying on the listing category.\n\nCost segregation identifies supportable component classifications and recovery periods within the depreciable basis; land is not depreciable. The 100% additional first-year allowance applies to eligible property acquired and placed in service after January 19, 2025, subject to the governing requirements and elections. It does not apply to every building cost or guarantee a currently usable deduction. Earlier acquisitions, changes in use and other special facts need their own analysis under the applicable rules.\n\nAssign the tax analysis, study work and return implementation to identified professionals under written scopes. Confirm qualifications, responsibilities, fees and the assumptions used. An affiliated provider recommendation is a commercial recommendation, not evidence of a particular taxpayer\u2019s eligibility or an independently verified client result.\n\nEntity structuring decisions affect both tax outcomes and liability protection. Single-member LLCs, multi-member LLCs, S-Corps, and holding company structures each offer different benefits. The right structure depends on property count, income level, state considerations, and long-term plans. A qualified CPA and attorney should guide these decisions based on your specific circumstances.\n\nRecord keeping is the foundation every tax strategy depends on. Maintain detailed records of all income, expenses, property improvements, material participation hours, and business use documentation. Digital tools like Stessa or QuickBooks make ongoing tracking manageable, but the discipline of consistent record keeping cannot be replaced by software alone.\n\nStart the records review before a property purchase or a material operating change. Confirm ownership, financing terms, acquisition and readiness dates, expected use and implementation responsibilities. Revisit the forecast as facts change. Planning can identify questions early, but it does not ensure an optimal structure, maximum deduction or particular investment result.\n\nState and local tax implications add complexity that varies significantly by location. Different states have different income tax rates, property tax structures, and STR-specific tax requirements. Some jurisdictions impose occupancy taxes, tourism taxes, or special assessments on short-term rentals. Factor all tax obligations into your investment analysis from the beginning.\n\nCompare the documented tax forecast with the operating investment case. The property still needs a cash budget even if depreciation produces a tax loss. Ask the preparer to explain current versus suspended deductions, state differences and later disposition consequences. No general article establishes that advisory fees will be recovered through savings or that a filing will be free of errors.",
+      "body": "A short-term rental does not arrive with an automatic deduction against wages. The question depends on the activity, the owner, the tax year and the limitations applying to the return. A property can report an economic loss, a tax depreciation deduction and a suspended loss at the same time. Those are different amounts with different implications for the owner\u2019s cash reserve.\n\nOrganize the review into three files: customer-use classification, participation and loss usability. Ask the preparer to state the conclusion for each rather than writing \u201cSTR loophole\u201d beside a projected deduction. This guide explains the records and questions; it does not determine an individual owner\u2019s eligibility or recommend buying a property for a tax result.\n\nFor section 469, average customer use of seven days or less is one exception to treating an activity as a rental activity. The calculation uses total days in rental periods divided by the number of rentals, under the applicable rules. A platform\u2019s \u201cshort-term\u201d label, a minimum-stay setting or a count of booked nights alone does not establish the result. Other exceptions may apply to other facts.\n\nIn a fictional illustration, 100 customer-use days across 20 rental periods produce an average of five days. The same 100 days across ten periods produce an average of ten days. The first fits the numerical seven-day screen; the second does not fit that particular exception. Neither example decides material participation, the treatment of personal use, or the amount deductible on a return. Retain the booking register and explain adjustments rather than changing the denominator to obtain a preferred average.\n\nThe temporary regulations contain several tests, not a single universal hourly target. Two commonly discussed tests concern participation exceeding 500 hours and participation exceeding 100 hours that is not less than that of any other individual. The latter requires a comparison with other individuals\u2019 participation, not merely the owner reaching 100 hours. Different tests have different requirements and exceptions.\n\nAssume a fictional owner performs 120 hours and another individual performs 150. The owner\u2019s 120 hours alone do not establish the \u201cmore than 100 and no other individual more\u201d test. This does not prove that every other material-participation test fails. Have the preparer identify the test being relied on and the evidence supporting each condition. A management contract or calendar estimate cannot substitute for that analysis.\n\nMaintain a practical register with the date, property, task, person, time and supporting record. Preserve messages, invoices, repair records and scheduling information that help explain actual work. Do not record the same interval twice because it involved several tasks. Keep your work separate from a contractor\u2019s invoice hours and identify where another person\u2019s participation is unknown.\n\nNot every owner-related activity necessarily counts as participation. The regulations discuss investor-type work and other exclusions. Provide facts rather than classifying every hour yourself. A record can note the actual task and leave the eligibility conclusion to the review. When records are incomplete, disclose the gap and the available evidence; do not invent a retrospective diary to match a target.\n\nA nonrental classification and material participation do not remove every other restriction. Basis, at-risk and passive-activity rules may affect the loss, and noncorporate excess-business-loss rules can also require review. The Form 461 instructions describe an ordering process; current-year forms and the taxpayer\u2019s circumstances control the calculation. Avoid comparing a property\u2019s loss directly with a W-2 amount and calling the remainder a completed tax projection.\n\nAsk for a schedule showing the property-level result, adjustments under the applicable limitations, the amount used currently and any amount carried forward. Keep separate records for different kinds of suspended losses. An expected deduction that is deferred should be shown as deferred in the cash plan. Personal-use facts, ownership through an entity and state rules can change the work required.\n\nPassive-activity classification does not by itself settle which return schedule applies or whether employment-tax rules apply. Services, ownership and other facts need their own analysis. Likewise, a cost segregation study classifies assets; it does not establish participation. Supply the professional with one coherent fact packet instead of collecting disconnected assurances from a software screen, study proposal and social-media explanation.\n\nClose the review with the tax year, booking computation, participation test, supported records, unresolved facts and loss-limit schedule. Save that version with the filed treatment and carryforwards. Review the facts again in later years when stays, management responsibilities or personal use change. A supported conclusion for one year is not a permanent credential attached to the property.",
       "faqs": [
         {
-          "q": "Does a short average stay make a rental loss deductible against wages?",
-          "a": "No. The section 469 rental-activity exception and material participation are separate questions, and other applicable loss limits remain. Evaluate the actual booking and participation records with the professional preparing the return."
+          "q": "Is an average stay of seven days enough to deduct an STR loss against wages?",
+          "a": "No. It addresses one rental-activity exception for section 469. Participation and applicable loss limitations require separate review."
         },
         {
-          "q": "Does 100% bonus depreciation cover the whole property?",
-          "a": "No. The additional first-year allowance concerns eligible depreciable property and its acquisition and placed-in-service facts. Land and the building\u2019s long-lived structural costs are not automatically eligible simply because a cost segregation study is obtained."
+          "q": "Does reaching 100 hours always establish material participation?",
+          "a": "No. The more-than 100-hour comparative test also looks at other individuals\u2019 participation. Other tests have different conditions; identify the test and supporting facts."
         },
         {
-          "q": "How should I compare professional fees with a projected benefit?",
-          "a": "Request separate written scopes and a taxpayer-specific forecast distinguishing current deductions from suspended amounts and later consequences. Savings exceeding the fees are not guaranteed."
+          "q": "Does a cost segregation report establish participation?",
+          "a": "No. The report\u2019s asset classifications and the owner\u2019s operating participation are different analyses."
         }
       ],
       "updated": "2026-11-21",
@@ -2383,15 +2383,63 @@
           "url": "https://www.irs.gov/publications/p925"
         },
         {
-          "label": "IRS Publication 946: How To Depreciate Property",
-          "url": "https://www.irs.gov/publications/p946"
+          "label": "26 CFR 1.469-1T: rental-activity exceptions",
+          "url": "https://www.ecfr.gov/current/title-26/section-1.469-1T"
         },
         {
-          "label": "IRS Notice 2026-11: additional first-year depreciation guidance",
-          "url": "https://www.irs.gov/irb/2026-06_IRB#NOT-2026-11"
+          "label": "26 CFR 1.469-5T: material-participation tests and participation",
+          "url": "https://www.ecfr.gov/current/title-26/section-1.469-5T"
+        },
+        {
+          "label": "IRS Form 461 instructions: excess business losses and ordering rules",
+          "url": "https://www.irs.gov/instructions/i461"
         }
       ],
-      "sourcesChecked": "November 21, 2026"
+      "sourcesChecked": "November 21, 2026",
+      "sections": [
+        {
+          "heading": "Treat the wage offset as a conclusion, not a purchase feature",
+          "paragraphs": [
+            "A short-term rental does not arrive with an automatic deduction against wages. The question depends on the activity, the owner, the tax year and the limitations applying to the return. A property can report an economic loss, a tax depreciation deduction and a suspended loss at the same time. Those are different amounts with different implications for the owner\u2019s cash reserve.",
+            "Organize the review into three files: customer-use classification, participation and loss usability. Ask the preparer to state the conclusion for each rather than writing \u201cSTR loophole\u201d beside a projected deduction. This guide explains the records and questions; it does not determine an individual owner\u2019s eligibility or recommend buying a property for a tax result."
+          ]
+        },
+        {
+          "heading": "Calculate average customer use from the actual rental periods",
+          "paragraphs": [
+            "For section 469, average customer use of seven days or less is one exception to treating an activity as a rental activity. The calculation uses total days in rental periods divided by the number of rentals, under the applicable rules. A platform\u2019s \u201cshort-term\u201d label, a minimum-stay setting or a count of booked nights alone does not establish the result. Other exceptions may apply to other facts.",
+            "In a fictional illustration, 100 customer-use days across 20 rental periods produce an average of five days. The same 100 days across ten periods produce an average of ten days. The first fits the numerical seven-day screen; the second does not fit that particular exception. Neither example decides material participation, the treatment of personal use, or the amount deductible on a return. Retain the booking register and explain adjustments rather than changing the denominator to obtain a preferred average."
+          ]
+        },
+        {
+          "heading": "Identify a material-participation test before counting hours",
+          "paragraphs": [
+            "The temporary regulations contain several tests, not a single universal hourly target. Two commonly discussed tests concern participation exceeding 500 hours and participation exceeding 100 hours that is not less than that of any other individual. The latter requires a comparison with other individuals\u2019 participation, not merely the owner reaching 100 hours. Different tests have different requirements and exceptions.",
+            "Assume a fictional owner performs 120 hours and another individual performs 150. The owner\u2019s 120 hours alone do not establish the \u201cmore than 100 and no other individual more\u201d test. This does not prove that every other material-participation test fails. Have the preparer identify the test being relied on and the evidence supporting each condition. A management contract or calendar estimate cannot substitute for that analysis."
+          ]
+        },
+        {
+          "heading": "Record the work without manufacturing a time log",
+          "paragraphs": [
+            "Maintain a practical register with the date, property, task, person, time and supporting record. Preserve messages, invoices, repair records and scheduling information that help explain actual work. Do not record the same interval twice because it involved several tasks. Keep your work separate from a contractor\u2019s invoice hours and identify where another person\u2019s participation is unknown.",
+            "Not every owner-related activity necessarily counts as participation. The regulations discuss investor-type work and other exclusions. Provide facts rather than classifying every hour yourself. A record can note the actual task and leave the eligibility conclusion to the review. When records are incomplete, disclose the gap and the available evidence; do not invent a retrospective diary to match a target."
+          ]
+        },
+        {
+          "heading": "Carry the result through the applicable loss limitations",
+          "paragraphs": [
+            "A nonrental classification and material participation do not remove every other restriction. Basis, at-risk and passive-activity rules may affect the loss, and noncorporate excess-business-loss rules can also require review. The Form 461 instructions describe an ordering process; current-year forms and the taxpayer\u2019s circumstances control the calculation. Avoid comparing a property\u2019s loss directly with a W-2 amount and calling the remainder a completed tax projection.",
+            "Ask for a schedule showing the property-level result, adjustments under the applicable limitations, the amount used currently and any amount carried forward. Keep separate records for different kinds of suspended losses. An expected deduction that is deferred should be shown as deferred in the cash plan. Personal-use facts, ownership through an entity and state rules can change the work required."
+          ]
+        },
+        {
+          "heading": "Keep separate questions separate at filing time",
+          "paragraphs": [
+            "Passive-activity classification does not by itself settle which return schedule applies or whether employment-tax rules apply. Services, ownership and other facts need their own analysis. Likewise, a cost segregation study classifies assets; it does not establish participation. Supply the professional with one coherent fact packet instead of collecting disconnected assurances from a software screen, study proposal and social-media explanation.",
+            "Close the review with the tax year, booking computation, participation test, supported records, unresolved facts and loss-limit schedule. Save that version with the filed treatment and carryforwards. Review the facts again in later years when stays, management responsibilities or personal use change. A supported conclusion for one year is not a permanent credential attached to the property."
+          ]
+        }
+      ]
     },
     {
       "id": 83,
@@ -2436,42 +2484,94 @@
     {
       "id": 84,
       "slug": "bonus-depreciation-for-short-term-rentals-2026-update",
-      "title": "Bonus Depreciation for Short-Term Rentals: 2026 Update",
-      "description": "How bonus depreciation works for STR investors in 2026 under permanent 100% provisions.",
+      "title": "Bonus Depreciation for Short-Term Rentals in 2026: An Eligibility Checklist",
+      "description": "Check property class, acquisition and placed-in-service facts, basis, elections and loss usability before putting bonus depreciation in an STR forecast.",
       "category": "tax",
       "categoryName": "STR Tax Strategy",
       "date": "2026-10-03",
-      "body": "Tax planning for a short-term rental starts with the property, ownership, operating facts and tax year. A strategy name does not establish eligibility or predict an after-tax return. Keep projected deductions, current loss limitations, required cash and professional fees separate when evaluating a proposal.\n\nDepreciation, passive-activity rules, business deductions and entity taxation address different questions. Identify which provision applies to the proposed transaction and which facts remain unresolved. Combining several strategy names in a projection does not establish that the taxpayer qualifies for each treatment.\n\nFor section 469, an average customer-use period of seven days or less can take an activity outside the rental-activity definition. Material participation is a separate test. A nonrental classification does not itself establish a deductible loss against wages: basis, at-risk, passive-activity and other applicable loss rules still require review. Keep booking records and evidence of actual work rather than relying on the listing category.\n\nCost segregation identifies supportable component classifications and recovery periods within the depreciable basis; land is not depreciable. The 100% additional first-year allowance applies to eligible property acquired and placed in service after January 19, 2025, subject to the governing requirements and elections. It does not apply to every building cost or guarantee a currently usable deduction. Earlier acquisitions, changes in use and other special facts need their own analysis under the applicable rules.\n\nAssign the tax analysis, study work and return implementation to identified professionals under written scopes. Confirm qualifications, responsibilities, fees and the assumptions used. An affiliated provider recommendation is a commercial recommendation, not evidence of a particular taxpayer\u2019s eligibility or an independently verified client result.\n\nEntity structuring decisions affect both tax outcomes and liability protection. Single-member LLCs, multi-member LLCs, S-Corps, and holding company structures each offer different benefits. The right structure depends on property count, income level, state considerations, and long-term plans. A qualified CPA and attorney should guide these decisions based on your specific circumstances.\n\nRecord keeping is the foundation every tax strategy depends on. Maintain detailed records of all income, expenses, property improvements, material participation hours, and business use documentation. Digital tools like Stessa or QuickBooks make ongoing tracking manageable, but the discipline of consistent record keeping cannot be replaced by software alone.\n\nStart the records review before a property purchase or a material operating change. Confirm ownership, financing terms, acquisition and readiness dates, expected use and implementation responsibilities. Revisit the forecast as facts change. Planning can identify questions early, but it does not ensure an optimal structure, maximum deduction or particular investment result.\n\nState and local tax implications add complexity that varies significantly by location. Different states have different income tax rates, property tax structures, and STR-specific tax requirements. Some jurisdictions impose occupancy taxes, tourism taxes, or special assessments on short-term rentals. Factor all tax obligations into your investment analysis from the beginning.\n\nCompare the documented tax forecast with the operating investment case. The property still needs a cash budget even if depreciation produces a tax loss. Ask the preparer to explain current versus suspended deductions, state differences and later disposition consequences. No general article establishes that advisory fees will be recovered through savings or that a filing will be free of errors.",
+      "body": "The restored 100% additional first-year depreciation allowance applies to qualifying property under the post-January 19, 2025 acquisition and placed-in-service rules. It does not make every short-term rental purchase deductible immediately. Notice 2026-11 and Publication 946 are starting points for identifying the property and applicable requirements; the correct result depends on the actual transaction and use.\n\nBegin with an asset register rather than a purchase price multiplied by 100%. Give each item a description, supported basis, acquisition facts, readiness date and proposed tax class. List the eligibility question beside that item. This guide describes a review process, not an inspection, cost segregation determination or return calculation for a real property.\n\nLand is not depreciable. The building\u2019s ordinary long-lived structural basis does not become bonus-eligible merely because the property is advertised for short stays. Some shorter-lived assets or qualifying components may have a different treatment, but each classification needs support. A cost segregation report and a bonus-eligibility decision are related work products, not interchangeable conclusions.\n\nReconcile the closing records, land allocation, separately purchased equipment and later improvements to the fixed-asset schedule. Check that no invoice has been included both as a separate asset and inside another allocation. Retain the report version used and ask the return preparer to explain differences between its recommendations and the implemented schedule.\n\nA signed contract, delivery, payment and placement in service can occur on different dates. Depreciation generally begins when property is ready and available for its specific use. Collect the documents establishing the relevant events instead of substituting the date cash left the bank. Acquisition rules can require review of the contract and other facts, so a 2026 payment alone does not establish a post-January 19, 2025 acquisition.\n\nFor each disputed date, identify the source document, what it establishes and who will resolve the question. Earlier acquisitions can be subject to different applicable-percentage rules even if a later step occurs in 2026. Changes from personal use, used-property purchases, related parties and other special facts require their own eligibility review; do not infer the result solely from the year on an invoice.\n\nAssume two wholly fictional items have supported business depreciable bases of $12,000 and $18,000. Assume a qualified preparer has established that both meet every applicable condition for the 100% allowance, that no election changes the result and that no other adjustment affects the calculation. The assumed additional first-year depreciation total is $30,000. This arithmetic does not establish that any real item qualifies.\n\nThe $30,000 is a deduction in the assumed example, not $30,000 of tax saved or cash received. Current loss usability, other return items and state treatment still matter. A financing payment also includes different cash components from depreciation. Keep the asset calculation and the taxpayer cash forecast on separate schedules so the deduction is not mistaken for money available to spend.\n\nAsk the preparer which elections are available, their scope and the applicable filing requirements before finalizing depreciation. Electing out of bonus treatment is a formal tax decision, not a different spreadsheet label. Compare permitted alternatives using consistent assumptions about income, expected holding period and the owner\u2019s other limitations. A larger current deduction is not automatically the preferred lifetime result.\n\nDepreciation affects adjusted basis, and disposition can involve recapture or other tax consequences. Publication 544 explains the broader sale rules. Keep the asset detail available for replacements and disposals, rather than retaining only the first-year deduction total. State conformity also needs a separate review; federal treatment does not establish the state deduction.\n\nBefore filing, reconcile the approved asset register to the depreciation workpapers. Document the treatment of items excluded, deferred or assigned a different recovery period. Separate the person supplying purchase facts from the person making the tax conclusion and the person preparing the return. Written responsibilities make it easier to resolve a late invoice or a changed placed-in-service fact.\n\nAfter filing, retain the acquisition support, readiness evidence, class and basis decisions, applicable elections and implemented schedule. Add an unresolved-issues list for next year instead of silently assuming every uncertainty has disappeared. Review the cash forecast after applying taxpayer-level limitations. The practical output is a reproducible calculation supported by records, not a marketing estimate repeated as a guaranteed benefit.",
       "faqs": [
         {
-          "q": "Does a short average stay make a rental loss deductible against wages?",
-          "a": "No. The section 469 rental-activity exception and material participation are separate questions, and other applicable loss limits remain. Evaluate the actual booking and participation records with the professional preparing the return."
+          "q": "Does 100% bonus depreciation mean the entire STR purchase price is deductible?",
+          "a": "No. Land, ordinary building basis and ineligible property do not become eligible because the rental has short stays. Review each asset or component and the applicable requirements."
         },
         {
-          "q": "Does 100% bonus depreciation cover the whole property?",
-          "a": "No. The additional first-year allowance concerns eligible depreciable property and its acquisition and placed-in-service facts. Land and the building\u2019s long-lived structural costs are not automatically eligible simply because a cost segregation study is obtained."
+          "q": "Is the fictional $30,000 deduction a $30,000 refund?",
+          "a": "No. It is conditional depreciation arithmetic. Tax saved and cash received depend on the actual return and applicable limitations."
         },
         {
-          "q": "How should I compare professional fees with a projected benefit?",
-          "a": "Request separate written scopes and a taxpayer-specific forecast distinguishing current deductions from suspended amounts and later consequences. Savings exceeding the fees are not guaranteed."
+          "q": "Does a 2026 payment prove the acquisition-date test?",
+          "a": "No. Contract, acquisition, payment and placed-in-service facts must be reviewed separately."
         }
       ],
       "updated": "2026-11-21",
       "sources": [
         {
-          "label": "IRS Publication 925: Passive Activity and At-Risk Rules",
-          "url": "https://www.irs.gov/publications/p925"
+          "label": "IRS Notice 2026-11: additional first-year depreciation guidance",
+          "url": "https://www.irs.gov/irb/2026-06_IRB#NOT-2026-11"
         },
         {
-          "label": "IRS Publication 946: How To Depreciate Property",
+          "label": "IRS Publication 946: depreciation eligibility, timing and elections",
           "url": "https://www.irs.gov/publications/p946"
         },
         {
-          "label": "IRS Notice 2026-11: additional first-year depreciation guidance",
-          "url": "https://www.irs.gov/irb/2026-06_IRB#NOT-2026-11"
+          "label": "IRS Publication 551: basis of assets",
+          "url": "https://www.irs.gov/publications/p551"
+        },
+        {
+          "label": "IRS Publication 544: sale and disposition consequences",
+          "url": "https://www.irs.gov/publications/p544"
+        },
+        {
+          "label": "IRS Publication 925: passive-activity and at-risk rules",
+          "url": "https://www.irs.gov/publications/p925"
         }
       ],
-      "sourcesChecked": "November 21, 2026"
+      "sourcesChecked": "November 21, 2026",
+      "sections": [
+        {
+          "heading": "A headline percentage is not the eligibility analysis",
+          "paragraphs": [
+            "The restored 100% additional first-year depreciation allowance applies to qualifying property under the post-January 19, 2025 acquisition and placed-in-service rules. It does not make every short-term rental purchase deductible immediately. Notice 2026-11 and Publication 946 are starting points for identifying the property and applicable requirements; the correct result depends on the actual transaction and use.",
+            "Begin with an asset register rather than a purchase price multiplied by 100%. Give each item a description, supported basis, acquisition facts, readiness date and proposed tax class. List the eligibility question beside that item. This guide describes a review process, not an inspection, cost segregation determination or return calculation for a real property."
+          ]
+        },
+        {
+          "heading": "Keep land, building and eligible components distinct",
+          "paragraphs": [
+            "Land is not depreciable. The building\u2019s ordinary long-lived structural basis does not become bonus-eligible merely because the property is advertised for short stays. Some shorter-lived assets or qualifying components may have a different treatment, but each classification needs support. A cost segregation report and a bonus-eligibility decision are related work products, not interchangeable conclusions.",
+            "Reconcile the closing records, land allocation, separately purchased equipment and later improvements to the fixed-asset schedule. Check that no invoice has been included both as a separate asset and inside another allocation. Retain the report version used and ask the return preparer to explain differences between its recommendations and the implemented schedule."
+          ]
+        },
+        {
+          "heading": "Document acquisition and readiness as different events",
+          "paragraphs": [
+            "A signed contract, delivery, payment and placement in service can occur on different dates. Depreciation generally begins when property is ready and available for its specific use. Collect the documents establishing the relevant events instead of substituting the date cash left the bank. Acquisition rules can require review of the contract and other facts, so a 2026 payment alone does not establish a post-January 19, 2025 acquisition.",
+            "For each disputed date, identify the source document, what it establishes and who will resolve the question. Earlier acquisitions can be subject to different applicable-percentage rules even if a later step occurs in 2026. Changes from personal use, used-property purchases, related parties and other special facts require their own eligibility review; do not infer the result solely from the year on an invoice."
+          ]
+        },
+        {
+          "heading": "Use a conditional asset example, not a promised refund",
+          "paragraphs": [
+            "Assume two wholly fictional items have supported business depreciable bases of $12,000 and $18,000. Assume a qualified preparer has established that both meet every applicable condition for the 100% allowance, that no election changes the result and that no other adjustment affects the calculation. The assumed additional first-year depreciation total is $30,000. This arithmetic does not establish that any real item qualifies.",
+            "The $30,000 is a deduction in the assumed example, not $30,000 of tax saved or cash received. Current loss usability, other return items and state treatment still matter. A financing payment also includes different cash components from depreciation. Keep the asset calculation and the taxpayer cash forecast on separate schedules so the deduction is not mistaken for money available to spend."
+          ]
+        },
+        {
+          "heading": "Compare available elections and later consequences",
+          "paragraphs": [
+            "Ask the preparer which elections are available, their scope and the applicable filing requirements before finalizing depreciation. Electing out of bonus treatment is a formal tax decision, not a different spreadsheet label. Compare permitted alternatives using consistent assumptions about income, expected holding period and the owner\u2019s other limitations. A larger current deduction is not automatically the preferred lifetime result.",
+            "Depreciation affects adjusted basis, and disposition can involve recapture or other tax consequences. Publication 544 explains the broader sale rules. Keep the asset detail available for replacements and disposals, rather than retaining only the first-year deduction total. State conformity also needs a separate review; federal treatment does not establish the state deduction."
+          ]
+        },
+        {
+          "heading": "Implement the approved calculation and retain the decisions",
+          "paragraphs": [
+            "Before filing, reconcile the approved asset register to the depreciation workpapers. Document the treatment of items excluded, deferred or assigned a different recovery period. Separate the person supplying purchase facts from the person making the tax conclusion and the person preparing the return. Written responsibilities make it easier to resolve a late invoice or a changed placed-in-service fact.",
+            "After filing, retain the acquisition support, readiness evidence, class and basis decisions, applicable elections and implemented schedule. Add an unresolved-issues list for next year instead of silently assuming every uncertainty has disappeared. Review the cash forecast after applying taxpayer-level limitations. The practical output is a reproducible calculation supported by records, not a marketing estimate repeated as a guaranteed benefit."
+          ]
+        }
+      ]
     },
     {
       "id": 85,
