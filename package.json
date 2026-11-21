@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.mjs && node build-blog.mjs && node add-meta-pixel.mjs",
-    "check": "node check.mjs"
+    "build": "node scripts/check-content-distinctness.mjs && node build.mjs && node build-blog.mjs && node add-meta-pixel.mjs",
+    "check": "node scripts/check-content-distinctness.mjs && node check.mjs",
+    "test:content": "node --test scripts/test-content-distinctness.mjs"
   },
   "engines": {
     "node": ">=22"
