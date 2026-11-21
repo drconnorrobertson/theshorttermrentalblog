@@ -2444,42 +2444,90 @@
     {
       "id": 83,
       "slug": "reps-qualification-for-str-investors-real-estate-professional-status",
-      "title": "REPS Qualification for STR Investors: Real Estate Professional Status",
-      "description": "How to qualify as a Real Estate Professional and what it means for STR investments.",
+      "title": "Real Estate Professional Status for STR Owners: Two Tests and a Separate Review",
+      "description": "Test the more-than-750-hour and more-than-half requirements separately from rental participation, with spouse, employment and recordkeeping examples.",
       "category": "tax",
       "categoryName": "STR Tax Strategy",
       "date": "2026-10-03",
-      "body": "Tax planning for a short-term rental starts with the property, ownership, operating facts and tax year. A strategy name does not establish eligibility or predict an after-tax return. Keep projected deductions, current loss limitations, required cash and professional fees separate when evaluating a proposal.\n\nDepreciation, passive-activity rules, business deductions and entity taxation address different questions. Identify which provision applies to the proposed transaction and which facts remain unresolved. Combining several strategy names in a projection does not establish that the taxpayer qualifies for each treatment.\n\nFor section 469, an average customer-use period of seven days or less can take an activity outside the rental-activity definition. Material participation is a separate test. A nonrental classification does not itself establish a deductible loss against wages: basis, at-risk, passive-activity and other applicable loss rules still require review. Keep booking records and evidence of actual work rather than relying on the listing category.\n\nCost segregation identifies supportable component classifications and recovery periods within the depreciable basis; land is not depreciable. The 100% additional first-year allowance applies to eligible property acquired and placed in service after January 19, 2025, subject to the governing requirements and elections. It does not apply to every building cost or guarantee a currently usable deduction. Earlier acquisitions, changes in use and other special facts need their own analysis under the applicable rules.\n\nAssign the tax analysis, study work and return implementation to identified professionals under written scopes. Confirm qualifications, responsibilities, fees and the assumptions used. An affiliated provider recommendation is a commercial recommendation, not evidence of a particular taxpayer\u2019s eligibility or an independently verified client result.\n\nEntity structuring decisions affect both tax outcomes and liability protection. Single-member LLCs, multi-member LLCs, S-Corps, and holding company structures each offer different benefits. The right structure depends on property count, income level, state considerations, and long-term plans. A qualified CPA and attorney should guide these decisions based on your specific circumstances.\n\nRecord keeping is the foundation every tax strategy depends on. Maintain detailed records of all income, expenses, property improvements, material participation hours, and business use documentation. Digital tools like Stessa or QuickBooks make ongoing tracking manageable, but the discipline of consistent record keeping cannot be replaced by software alone.\n\nStart the records review before a property purchase or a material operating change. Confirm ownership, financing terms, acquisition and readiness dates, expected use and implementation responsibilities. Revisit the forecast as facts change. Planning can identify questions early, but it does not ensure an optimal structure, maximum deduction or particular investment result.\n\nState and local tax implications add complexity that varies significantly by location. Different states have different income tax rates, property tax structures, and STR-specific tax requirements. Some jurisdictions impose occupancy taxes, tourism taxes, or special assessments on short-term rentals. Factor all tax obligations into your investment analysis from the beginning.\n\nCompare the documented tax forecast with the operating investment case. The property still needs a cash budget even if depreciation produces a tax loss. Ask the preparer to explain current versus suspended deductions, state differences and later disposition consequences. No general article establishes that advisory fees will be recovered through savings or that a filing will be free of errors.",
+      "body": "Real estate professional status is an annual federal tax classification for particular passive-activity rules. A real estate license, an LLC, ownership of several rentals or a plan to leave employment does not establish it. Nor does status alone make every rental loss usable. Start by identifying the taxpayer, tax year and activities being evaluated, then separate qualification from the participation and loss-limit work.\n\nFor a short-term rental, first determine how the actual customer-use and service facts are classified. An activity outside the rental-activity definition under a short-stay exception follows a different section 469 analysis from rental real estate relying on professional status. Do not assume every STR owner must qualify as a real estate professional to have a nonpassive activity, or that every hour spent around an STR necessarily belongs in the qualification calculation.\n\nThe ordinary individual qualification tests require both more than 750 hours in real property trades or businesses in which the taxpayer materially participates and more than half of the taxpayer\u2019s personal services in all trades or businesses to be in those qualifying activities. These are two tests. Passing the hour total does not remove the need to examine the rest of the taxpayer\u2019s work.\n\nUse a register identifying the person, date, business or activity, task, approximate time and supporting evidence. Keep the qualifying-hours conclusion beside the underlying task description. Separate non-real-estate work so the comparison has a supportable denominator. Ask the preparer to review the actual business definitions and participation requirements before marking a row as qualifying. An unsupported spreadsheet total becomes no more reliable when it has many decimal places.\n\nAssume an individual has 900 hours that a qualified reviewer has determined belong in qualifying real property trades or businesses, plus 1,200 hours in another trade or business. The fictional total is 2,100 hours, and 900 divided by 2,100 is approximately 42.9%. Although 900 exceeds 750, it does not exceed half of the assumed total. The numerical more-than-half test therefore is not met on these stipulated facts.\n\nIf the other-business hours instead were 700, the assumed total would be 1,600 and the qualifying share would be 56.25%. That comparison clears the two numerical screens in this limited illustration. It does not validate any real hour, activity classification, filing position or deduction. Keep the assumptions explicit rather than copying the percentage into an actual return file. Exactly 750 hours is not more than 750.\n\nOn a joint return, spouses cannot simply pool personal-service hours to satisfy the professional-status qualification tests for one person. The rules distinguish that question from counting a spouse\u2019s participation when evaluating material participation in an activity. A two-person register should therefore identify who performed each task instead of storing only a household total.\n\nFor example, fictional totals of 500 hours for one spouse and 400 for the other do not establish that either person exceeded 750 hours. Those numbers alone do not resolve participation in a particular activity either. Give the preparer each person\u2019s records and other work commitments, and request separate conclusions where the rules call for them. Joint ownership and joint filing do not erase the identity of the worker.\n\nEmployee services in real property trades or businesses generally do not count for qualification unless the employee meets the applicable employer-ownership exception. Publication 925 describes the ownership test, including its more-than-5% condition. Titles, commissions or familiarity with property transactions do not substitute for the actual ownership and business facts. Supply employment and ownership information through the engagement\u2019s secure process.\n\nWhere multiple rental real estate activities are involved, determine whether an election to treat interests as one activity exists and what it covers. Do not create an assumed election by combining spreadsheet tabs. Keep the filed statement and the preparer\u2019s analysis with the activity history, and ask how a change in holdings or operations affects the analysis. Aggregation can have consequences beyond the convenience of counting hours.\n\nThe review packet should identify the qualifying person, tax year, eligible activities, supported hours, other personal services, applicable elections and unresolved questions. Keep qualifications and material-participation conclusions distinct. The professional should also examine the applicable basis, at-risk, passive-loss and other return-level limitations before treating a property loss as a current offset against wages.\n\nRevisit the file when employment, management responsibilities, holdings or services change. Retain any carryforward schedules and the treatment actually used on the return. This record supports continuity when a different preparer takes over; it is not a permanent certificate attached to a property. The objective is a reproducible annual analysis with visible assumptions rather than a label used to justify a predetermined tax benefit.",
       "faqs": [
         {
-          "q": "Does a short average stay make a rental loss deductible against wages?",
-          "a": "No. The section 469 rental-activity exception and material participation are separate questions, and other applicable loss limits remain. Evaluate the actual booking and participation records with the professional preparing the return."
+          "q": "Does reaching 750 hours establish real estate professional status?",
+          "a": "No. The threshold is more than 750 qualifying hours, and the more-than-half personal-services test also applies. The activities and evidence must meet the applicable requirements."
         },
         {
-          "q": "Does 100% bonus depreciation cover the whole property?",
-          "a": "No. The additional first-year allowance concerns eligible depreciable property and its acquisition and placed-in-service facts. Land and the building\u2019s long-lived structural costs are not automatically eligible simply because a cost segregation study is obtained."
+          "q": "Can spouses add their hours together for the qualification tests?",
+          "a": "Not simply as a household total. Qualification and spouse participation in an activity are different questions; retain separate records for each person."
         },
         {
-          "q": "How should I compare professional fees with a projected benefit?",
-          "a": "Request separate written scopes and a taxpayer-specific forecast distinguishing current deductions from suspended amounts and later consequences. Savings exceeding the fees are not guaranteed."
+          "q": "Must every STR owner qualify as a real estate professional?",
+          "a": "No. First classify the actual activity. A rental-activity exception and material participation can involve a different analysis, while other applicable loss limits still require review."
         }
       ],
       "updated": "2026-11-21",
       "sources": [
         {
-          "label": "IRS Publication 925: Passive Activity and At-Risk Rules",
+          "label": "IRS Publication 925: real estate professional qualifications and participation",
           "url": "https://www.irs.gov/publications/p925"
         },
         {
-          "label": "IRS Publication 946: How To Depreciate Property",
-          "url": "https://www.irs.gov/publications/p946"
+          "label": "26 CFR 1.469-9: certain rental real estate activities and elections",
+          "url": "https://www.ecfr.gov/current/title-26/section-1.469-9"
         },
         {
-          "label": "IRS Notice 2026-11: additional first-year depreciation guidance",
-          "url": "https://www.irs.gov/irb/2026-06_IRB#NOT-2026-11"
+          "label": "26 CFR 1.469-1T: rental-activity definitions and exceptions",
+          "url": "https://www.ecfr.gov/current/title-26/section-1.469-1T"
+        },
+        {
+          "label": "26 CFR 1.469-5T: material participation",
+          "url": "https://www.ecfr.gov/current/title-26/section-1.469-5T"
         }
       ],
-      "sourcesChecked": "November 21, 2026"
+      "sourcesChecked": "November 21, 2026",
+      "sections": [
+        {
+          "heading": "A professional-status label does not finish the loss analysis",
+          "paragraphs": [
+            "Real estate professional status is an annual federal tax classification for particular passive-activity rules. A real estate license, an LLC, ownership of several rentals or a plan to leave employment does not establish it. Nor does status alone make every rental loss usable. Start by identifying the taxpayer, tax year and activities being evaluated, then separate qualification from the participation and loss-limit work.",
+            "For a short-term rental, first determine how the actual customer-use and service facts are classified. An activity outside the rental-activity definition under a short-stay exception follows a different section 469 analysis from rental real estate relying on professional status. Do not assume every STR owner must qualify as a real estate professional to have a nonpassive activity, or that every hour spent around an STR necessarily belongs in the qualification calculation."
+          ]
+        },
+        {
+          "heading": "Build two qualification computations from one supported work register",
+          "paragraphs": [
+            "The ordinary individual qualification tests require both more than 750 hours in real property trades or businesses in which the taxpayer materially participates and more than half of the taxpayer\u2019s personal services in all trades or businesses to be in those qualifying activities. These are two tests. Passing the hour total does not remove the need to examine the rest of the taxpayer\u2019s work.",
+            "Use a register identifying the person, date, business or activity, task, approximate time and supporting evidence. Keep the qualifying-hours conclusion beside the underlying task description. Separate non-real-estate work so the comparison has a supportable denominator. Ask the preparer to review the actual business definitions and participation requirements before marking a row as qualifying. An unsupported spreadsheet total becomes no more reliable when it has many decimal places."
+          ]
+        },
+        {
+          "heading": "Use a fictional comparison to expose the second test",
+          "paragraphs": [
+            "Assume an individual has 900 hours that a qualified reviewer has determined belong in qualifying real property trades or businesses, plus 1,200 hours in another trade or business. The fictional total is 2,100 hours, and 900 divided by 2,100 is approximately 42.9%. Although 900 exceeds 750, it does not exceed half of the assumed total. The numerical more-than-half test therefore is not met on these stipulated facts.",
+            "If the other-business hours instead were 700, the assumed total would be 1,600 and the qualifying share would be 56.25%. That comparison clears the two numerical screens in this limited illustration. It does not validate any real hour, activity classification, filing position or deduction. Keep the assumptions explicit rather than copying the percentage into an actual return file. Exactly 750 hours is not more than 750."
+          ]
+        },
+        {
+          "heading": "Separate a spouse\u2019s qualification from participation evidence",
+          "paragraphs": [
+            "On a joint return, spouses cannot simply pool personal-service hours to satisfy the professional-status qualification tests for one person. The rules distinguish that question from counting a spouse\u2019s participation when evaluating material participation in an activity. A two-person register should therefore identify who performed each task instead of storing only a household total.",
+            "For example, fictional totals of 500 hours for one spouse and 400 for the other do not establish that either person exceeded 750 hours. Those numbers alone do not resolve participation in a particular activity either. Give the preparer each person\u2019s records and other work commitments, and request separate conclusions where the rules call for them. Joint ownership and joint filing do not erase the identity of the worker."
+          ]
+        },
+        {
+          "heading": "Review employee work, activity definitions and any aggregation election",
+          "paragraphs": [
+            "Employee services in real property trades or businesses generally do not count for qualification unless the employee meets the applicable employer-ownership exception. Publication 925 describes the ownership test, including its more-than-5% condition. Titles, commissions or familiarity with property transactions do not substitute for the actual ownership and business facts. Supply employment and ownership information through the engagement\u2019s secure process.",
+            "Where multiple rental real estate activities are involved, determine whether an election to treat interests as one activity exists and what it covers. Do not create an assumed election by combining spreadsheet tabs. Keep the filed statement and the preparer\u2019s analysis with the activity history, and ask how a change in holdings or operations affects the analysis. Aggregation can have consequences beyond the convenience of counting hours."
+          ]
+        },
+        {
+          "heading": "Retain a year-specific conclusion and the remaining loss work",
+          "paragraphs": [
+            "The review packet should identify the qualifying person, tax year, eligible activities, supported hours, other personal services, applicable elections and unresolved questions. Keep qualifications and material-participation conclusions distinct. The professional should also examine the applicable basis, at-risk, passive-loss and other return-level limitations before treating a property loss as a current offset against wages.",
+            "Revisit the file when employment, management responsibilities, holdings or services change. Retain any carryforward schedules and the treatment actually used on the return. This record supports continuity when a different preparer takes over; it is not a permanent certificate attached to a property. The objective is a reproducible annual analysis with visible assumptions rather than a label used to justify a predetermined tax benefit."
+          ]
+        }
+      ]
     },
     {
       "id": 84,
