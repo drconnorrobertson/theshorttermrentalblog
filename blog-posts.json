@@ -2624,42 +2624,86 @@
     {
       "id": 85,
       "slug": "the-augusta-rule-for-str-owners-tax-free-rental-income",
-      "title": "The Augusta Rule for STR Owners: Tax-Free Rental Income",
-      "description": "How STR owners leverage Section 280A to rent their property tax-free for 14 days per year.",
+      "title": "The Augusta Rule for STR Owners: Home Use, Rental Days and Records",
+      "description": "Check the residence requirement and fewer-than-15-day limit before excluding home-rental income, and keep business-payer and rental-expense questions separate.",
       "category": "tax",
       "categoryName": "STR Tax Strategy",
       "date": "2026-10-03",
-      "body": "Tax planning for a short-term rental starts with the property, ownership, operating facts and tax year. A strategy name does not establish eligibility or predict an after-tax return. Keep projected deductions, current loss limitations, required cash and professional fees separate when evaluating a proposal.\n\nDepreciation, passive-activity rules, business deductions and entity taxation address different questions. Identify which provision applies to the proposed transaction and which facts remain unresolved. Combining several strategy names in a projection does not establish that the taxpayer qualifies for each treatment.\n\nFor section 469, an average customer-use period of seven days or less can take an activity outside the rental-activity definition. Material participation is a separate test. A nonrental classification does not itself establish a deductible loss against wages: basis, at-risk, passive-activity and other applicable loss rules still require review. Keep booking records and evidence of actual work rather than relying on the listing category.\n\nCost segregation identifies supportable component classifications and recovery periods within the depreciable basis; land is not depreciable. The 100% additional first-year allowance applies to eligible property acquired and placed in service after January 19, 2025, subject to the governing requirements and elections. It does not apply to every building cost or guarantee a currently usable deduction. Earlier acquisitions, changes in use and other special facts need their own analysis under the applicable rules.\n\nAssign the tax analysis, study work and return implementation to identified professionals under written scopes. Confirm qualifications, responsibilities, fees and the assumptions used. An affiliated provider recommendation is a commercial recommendation, not evidence of a particular taxpayer\u2019s eligibility or an independently verified client result.\n\nEntity structuring decisions affect both tax outcomes and liability protection. Single-member LLCs, multi-member LLCs, S-Corps, and holding company structures each offer different benefits. The right structure depends on property count, income level, state considerations, and long-term plans. A qualified CPA and attorney should guide these decisions based on your specific circumstances.\n\nRecord keeping is the foundation every tax strategy depends on. Maintain detailed records of all income, expenses, property improvements, material participation hours, and business use documentation. Digital tools like Stessa or QuickBooks make ongoing tracking manageable, but the discipline of consistent record keeping cannot be replaced by software alone.\n\nStart the records review before a property purchase or a material operating change. Confirm ownership, financing terms, acquisition and readiness dates, expected use and implementation responsibilities. Revisit the forecast as facts change. Planning can identify questions early, but it does not ensure an optimal structure, maximum deduction or particular investment result.\n\nState and local tax implications add complexity that varies significantly by location. Different states have different income tax rates, property tax structures, and STR-specific tax requirements. Some jurisdictions impose occupancy taxes, tourism taxes, or special assessments on short-term rentals. Factor all tax obligations into your investment analysis from the beginning.\n\nCompare the documented tax forecast with the operating investment case. The property still needs a cash budget even if depreciation produces a tax loss. Ask the preparer to explain current versus suspended deductions, state differences and later disposition consequences. No general article establishes that advisory fees will be recovered through savings or that a filing will be free of errors.",
+      "body": "The \u201cAugusta Rule\u201d nickname commonly refers to the limited rental-use rule in section 280A(g). It concerns a dwelling unit used by the taxpayer as a residence and actually rented for fewer than 15 days during the tax year. It is not a general exemption for short-term rental businesses, every property owned by an LLC or the first 14 days of a longer rental operation.\n\nStart with the particular dwelling unit, ownership, actual use and tax year. Retain a full-year calendar rather than only the events for which an invoice was prepared. Ask the preparer to explain which residence and rental-use rules apply to the facts before excluding any receipts. This educational guide does not determine that a specific home or proposed related-party arrangement qualifies.\n\nIRS Topic 415 explains the residence screen: personal use must be more than the greater of 14 days or 10% of the days rented to others at a fair rental price. The character of a day can matter, not just the calendar total. Publication 527 addresses family use, below-market use, repairs and other situations that may require different treatment.\n\nKeep a calendar identifying actual stays, users, payments and the purpose of any owner visit. Mark uncertain classifications for review. A listing that was available but not occupied is not the same fact as an actual rental day. Nor does writing \u201cmaintenance\u201d beside an owner visit establish how the day should be treated. Preserve the supporting evidence and let the return analysis resolve the classification.\n\nAssume a wholly fictional home has already been established to meet the residence requirement and has 13 actual rental days for the tax year. A proposed two-day rental would bring the assumed total to 15. That would no longer meet the fewer-than-15-day condition. A proposed one-day rental would instead bring the assumed total to 14. These totals illustrate the boundary only; they do not validate the residence facts, day classifications or any real booking.\n\nThe calendar must include relevant rentals across booking channels and payers. Do not restart the count because an invoice is issued to a different business or a booking arrives through another platform. When the annual total reaches 15 days or more, the special minimal-rental exclusion does not simply continue for the first 14 days. The normal reporting and expense-allocation rules need review for the actual year.\n\nWhen the minimal-rental rule applies, the rental income is excluded under that provision and deductions attributable to that rental use are not allowed. Publication 527 separately discusses home-related items that may be deductible under other rules. An excluded receipt should not be paired with rental deductions as though the same activity were an ordinary taxable rental business.\n\nGive the preparer a receipt register and expense records with clear categories. Ask how mortgage interest, property taxes, direct rental costs and other home expenses are handled under the applicable rules; do not assume that exclusion creates an additional deduction elsewhere. If the day count or residence conclusion changes, revisit both income and expenses rather than adjusting only the income line in a forecast.\n\nA payment described as rent by a company raises separate questions from the homeowner\u2019s income exclusion. The recipient\u2019s treatment does not automatically establish a deduction for the payer. Entity classification, the actual transaction, business purpose, amount and related-party facts need professional review. A template invoice is not evidence that a meeting occurred or that the charge is appropriate.\n\nFor a real proposed meeting, preserve the agenda, actual use, participants, supporting arrangements and the basis for the proposed price. Do not invent attendance or comparable venue quotes after the fact. Ask who will review each side of the transaction and reconcile the payment records. This guide does not supply a daily rental rate, approve a corporate deduction or establish that a transfer involving a disregarded entity is rent between separate federal taxpayers.\n\nReconcile actual rental days and receipts to confirmations, cancellations and payment records. Keep changes visible so a cancelled reservation is not treated as completed use and a late booking is not omitted. Record the tax year, relevant dwelling unit, residence determination, final rental-day count, receipt treatment and expense conclusion. Send sensitive records through the engagement\u2019s secure workflow.\n\nCheck state, local, lodging-tax, permit and insurance requirements separately; the federal income-tax rule does not settle those obligations. Revisit the conclusion when use changes in a later year. The practical outcome is a supported annual record showing why the reported treatment applies, not a recurring promise of tax-free income attached to every short-term rental.",
       "faqs": [
         {
-          "q": "Does a short average stay make a rental loss deductible against wages?",
-          "a": "No. The section 469 rental-activity exception and material participation are separate questions, and other applicable loss limits remain. Evaluate the actual booking and participation records with the professional preparing the return."
+          "q": "Does the rule exempt the first 14 days of every STR rental?",
+          "a": "No. It requires the applicable residence facts and fewer than 15 actual rental days for the tax year. It is not an exemption for the first 14 days of a longer rental year."
         },
         {
-          "q": "Does 100% bonus depreciation cover the whole property?",
-          "a": "No. The additional first-year allowance concerns eligible depreciable property and its acquisition and placed-in-service facts. Land and the building\u2019s long-lived structural costs are not automatically eligible simply because a cost segregation study is obtained."
+          "q": "Does an excluded rent receipt automatically establish a business-payer deduction?",
+          "a": "No. The payer\u2019s business purpose, entity classification, transaction and amount need separate review."
         },
         {
-          "q": "How should I compare professional fees with a projected benefit?",
-          "a": "Request separate written scopes and a taxpayer-specific forecast distinguishing current deductions from suspended amounts and later consequences. Savings exceeding the fees are not guaranteed."
+          "q": "Can rental expenses be deducted while excluding the minimal-rental income?",
+          "a": "Deductions attributable to rental use are not allowed under the minimal-rental rule. Other home-related deductions, if any, follow their own requirements."
         }
       ],
       "updated": "2026-11-21",
       "sources": [
         {
-          "label": "IRS Publication 925: Passive Activity and At-Risk Rules",
-          "url": "https://www.irs.gov/publications/p925"
+          "label": "IRS Publication 527: minimal rental use, residence and expense reporting",
+          "url": "https://www.irs.gov/publications/p527"
         },
         {
-          "label": "IRS Publication 946: How To Depreciate Property",
-          "url": "https://www.irs.gov/publications/p946"
+          "label": "IRS Topic 415: residential and vacation rental property",
+          "url": "https://www.irs.gov/taxtopics/tc415"
         },
         {
-          "label": "IRS Notice 2026-11: additional first-year depreciation guidance",
-          "url": "https://www.irs.gov/irb/2026-06_IRB#NOT-2026-11"
+          "label": "26 USC 280A, including subsection (g)",
+          "url": "https://www.law.cornell.edu/uscode/text/26/280A"
         }
       ],
-      "sourcesChecked": "November 21, 2026"
+      "sourcesChecked": "November 21, 2026",
+      "sections": [
+        {
+          "heading": "Identify the dwelling and the rule before using the nickname",
+          "paragraphs": [
+            "The \u201cAugusta Rule\u201d nickname commonly refers to the limited rental-use rule in section 280A(g). It concerns a dwelling unit used by the taxpayer as a residence and actually rented for fewer than 15 days during the tax year. It is not a general exemption for short-term rental businesses, every property owned by an LLC or the first 14 days of a longer rental operation.",
+            "Start with the particular dwelling unit, ownership, actual use and tax year. Retain a full-year calendar rather than only the events for which an invoice was prepared. Ask the preparer to explain which residence and rental-use rules apply to the facts before excluding any receipts. This educational guide does not determine that a specific home or proposed related-party arrangement qualifies."
+          ]
+        },
+        {
+          "heading": "Test residence use separately from the rental-day limit",
+          "paragraphs": [
+            "IRS Topic 415 explains the residence screen: personal use must be more than the greater of 14 days or 10% of the days rented to others at a fair rental price. The character of a day can matter, not just the calendar total. Publication 527 addresses family use, below-market use, repairs and other situations that may require different treatment.",
+            "Keep a calendar identifying actual stays, users, payments and the purpose of any owner visit. Mark uncertain classifications for review. A listing that was available but not occupied is not the same fact as an actual rental day. Nor does writing \u201cmaintenance\u201d beside an owner visit establish how the day should be treated. Preserve the supporting evidence and let the return analysis resolve the classification."
+          ]
+        },
+        {
+          "heading": "Count the year\u2019s rental days before accepting another booking",
+          "paragraphs": [
+            "Assume a wholly fictional home has already been established to meet the residence requirement and has 13 actual rental days for the tax year. A proposed two-day rental would bring the assumed total to 15. That would no longer meet the fewer-than-15-day condition. A proposed one-day rental would instead bring the assumed total to 14. These totals illustrate the boundary only; they do not validate the residence facts, day classifications or any real booking.",
+            "The calendar must include relevant rentals across booking channels and payers. Do not restart the count because an invoice is issued to a different business or a booking arrives through another platform. When the annual total reaches 15 days or more, the special minimal-rental exclusion does not simply continue for the first 14 days. The normal reporting and expense-allocation rules need review for the actual year."
+          ]
+        },
+        {
+          "heading": "Keep the exclusion and the owner\u2019s expense treatment together",
+          "paragraphs": [
+            "When the minimal-rental rule applies, the rental income is excluded under that provision and deductions attributable to that rental use are not allowed. Publication 527 separately discusses home-related items that may be deductible under other rules. An excluded receipt should not be paired with rental deductions as though the same activity were an ordinary taxable rental business.",
+            "Give the preparer a receipt register and expense records with clear categories. Ask how mortgage interest, property taxes, direct rental costs and other home expenses are handled under the applicable rules; do not assume that exclusion creates an additional deduction elsewhere. If the day count or residence conclusion changes, revisit both income and expenses rather than adjusting only the income line in a forecast."
+          ]
+        },
+        {
+          "heading": "A business payment needs its own analysis",
+          "paragraphs": [
+            "A payment described as rent by a company raises separate questions from the homeowner\u2019s income exclusion. The recipient\u2019s treatment does not automatically establish a deduction for the payer. Entity classification, the actual transaction, business purpose, amount and related-party facts need professional review. A template invoice is not evidence that a meeting occurred or that the charge is appropriate.",
+            "For a real proposed meeting, preserve the agenda, actual use, participants, supporting arrangements and the basis for the proposed price. Do not invent attendance or comparable venue quotes after the fact. Ask who will review each side of the transaction and reconcile the payment records. This guide does not supply a daily rental rate, approve a corporate deduction or establish that a transfer involving a disregarded entity is rent between separate federal taxpayers."
+          ]
+        },
+        {
+          "heading": "Close the year with a reconciled calendar and reporting conclusion",
+          "paragraphs": [
+            "Reconcile actual rental days and receipts to confirmations, cancellations and payment records. Keep changes visible so a cancelled reservation is not treated as completed use and a late booking is not omitted. Record the tax year, relevant dwelling unit, residence determination, final rental-day count, receipt treatment and expense conclusion. Send sensitive records through the engagement\u2019s secure workflow.",
+            "Check state, local, lodging-tax, permit and insurance requirements separately; the federal income-tax rule does not settle those obligations. Revisit the conclusion when use changes in a later year. The practical outcome is a supported annual record showing why the reported treatment applies, not a recurring promise of tax-free income attached to every short-term rental."
+          ]
+        }
+      ]
     },
     {
       "id": 86,
