@@ -149,5 +149,152 @@
         ]
       ]
     }
+  },
+  "str-market-research-how-to-identify-your-next-investment-market": {
+    "title": "STR Market Research: Address, Evidence and Operating Assumptions",
+    "updated": "2026-11-22",
+    "description": "Research an STR address with permission records, comparable revenue definitions, geographic operating questions and two evidence worksheets. No city rankings or return promises.",
+    "sections": [
+      {
+        "id": "research-record",
+        "heading": "Research the address and the proposed operation",
+        "paragraphs": [
+          "A market label does not establish that a particular home can be operated as a short-term rental, that a quoted revenue number is comparable, or that the operating plan is affordable. Start a dated evidence record for the address, ownership arrangement and intended stay pattern. This guide offers a research process; it does not rank cities or report investment returns.",
+          "Earlier roundup URLs now lead to this guide because their repeated text contained no supported market rankings. No underlying market study or local dataset is being presented here. Keep observed facts, assumptions and unresolved questions in separate columns."
+        ]
+      },
+      {
+        "id": "permission",
+        "heading": "Permission is an address-level question",
+        "paragraphs": [
+          "Identify the relevant local authority and preserve the current official rule, its effective date, and any written answer about the proposed use. Ask what approvals, inspections, occupancy restrictions, taxes and operating conditions apply. Separately review the lease, association restrictions and ownership arrangement with the appropriate parties. A neighboring listing or platform registration field is not confirmation for your address.",
+          "Airbnb\u2019s city-regulations guidance points hosts toward local government and other applicable rules. It does not decide whether a specific property is eligible. If the evidence is missing or contradictory, mark the decision unresolved and identify who can answer it before relying on the operating plan."
+        ]
+      },
+      {
+        "id": "revenue-evidence",
+        "heading": "Require a comparable revenue record",
+        "paragraphs": [
+          "Record the source, reporting period, property type, size, guest capacity, availability definition and treatment of cancellations for each comparison. Separate advertised nightly prices, modeled estimates and documented completed-stay results. They answer different questions. A blocked calendar night does not by itself establish a paid booking.",
+          "Ask whether a revenue figure includes cleaning charges, other fees or taxes, and how many nights were available. Identify differences in amenities, location, restrictions and season. Do not convert a high advertised rate into an annual revenue forecast by assuming every available night sells. Use the pricing example linked below to see why more accommodation revenue can still leave a lower limited operating balance."
+        ]
+      },
+      {
+        "id": "first-property",
+        "heading": "A fictional evidence screen, not a city ranking",
+        "paragraphs": [
+          "Consider three invented candidates. Candidate A has a revenue spreadsheet but no confirmed answer about the proposed rental use: hold that question open. Candidate B has a current approval for a different ownership arrangement: hold until the applicable authority confirms what the proposed change requires. Candidate C has a confirmed restriction incompatible with the proposed use: stop relying on that STR operating plan unless the underlying facts or requirements legitimately change.",
+          "These examples contain no real addresses, legal determinations or investment recommendations. None is marked \u201capproved to buy.\u201d A completed permission review still leaves physical condition, financing, insurance, operating capacity and financial assumptions to assess. The fictional CSV records the evidence gaps; the blank worksheet is for the reader\u2019s own dated research."
+        ]
+      },
+      {
+        "id": "beach",
+        "heading": "Beach and coastal properties: define the exposure and access questions",
+        "paragraphs": [
+          "Identify the actual access route, shoreline proximity, property construction and local authority rather than treating \u201cbeach market\u201d as a uniform category. Request property-specific hazard and insurance review, including coverage terms, exclusions, deductibles and operational interruption questions. Record who supplied each answer.",
+          "FEMA explains how to use its Flood Map Service Center for flood-hazard information. A map record is an input to review, not an insurance quote, a guarantee against loss, or proof that a rental use is permitted. Record the map product and date and bring unresolved interpretation questions to the relevant authority or professional."
+        ]
+      },
+      {
+        "id": "mountain",
+        "heading": "Mountain properties: test the operating route across seasons",
+        "paragraphs": [
+          "Ask how guests, cleaners and emergency services would reach the actual property under the conditions relevant to the intended operating season. Identify responsibility for access, road service, utilities and maintenance. Confirm the service area and response assumptions with local providers rather than copying a resort-wide occupancy claim.",
+          "Build the calendar around the dates that can actually be offered. Keep a proposed winter closure, maintenance block and an unconfirmed operating date distinct from a sold night. A scenic label does not resolve those calendar assumptions."
+        ]
+      },
+      {
+        "id": "lake",
+        "heading": "Lake properties: separate the home from water access rights",
+        "paragraphs": [
+          "Identify what access, dock, parking or shared-facility rights are actually included and what restrictions apply to guests. Ask the relevant owner, association or authority to confirm the proposed use. Record seasonal availability and who maintains each feature.",
+          "Do not assume that a nearby home\u2019s amenities or revenue apply because both listings mention the same lake. A comparison should explain whether the guest experience, accessible facilities and operating dates are genuinely comparable."
+        ]
+      },
+      {
+        "id": "urban",
+        "heading": "Urban properties: match the exact unit and building",
+        "paragraphs": [
+          "Identify the jurisdiction, building, unit and proposed ownership or tenancy arrangement. Preserve the applicable building or association documents alongside the government review. Ask about guest access, parking, occupancy and any operating conditions relevant to that unit.",
+          "Separate a listing that operates under an owner-occupancy arrangement from a proposed non-owner-occupied operation. Similar bedrooms and proximity to an attraction do not establish equivalent permission or economics."
+        ]
+      },
+      {
+        "id": "desert",
+        "heading": "Desert properties: define equipment and service assumptions",
+        "paragraphs": [
+          "Request a property-specific assessment of the systems and amenities the operating plan depends on. Record maintenance responsibilities, service availability and any seasonal limitations. A pool, cooling system or outdoor feature appearing in a listing does not establish its condition, running cost or permitted use.",
+          "NOAA\u2019s Storm Events Database provides historical event records. Use the documented location, period and reporting scope as context; it does not forecast bookings, measure a particular building\u2019s condition or establish future losses. Keep an insurer\u2019s or inspector\u2019s specific assessment separate from regional historical data."
+        ]
+      },
+      {
+        "id": "cost-and-cash",
+        "heading": "Compare the cash requirements, not an affordability label",
+        "paragraphs": [
+          "Separate acquisition cash, launch work, operating costs, turnover costs, financing obligations and reserves in the proposed plan. Ask which items are supported by a quote or actual statement and which remain assumptions. A lower purchase price or larger gross revenue estimate does not by itself establish more owner cash.",
+          "Keep appreciation assumptions outside the operating cash calculation. Record the holding period, possible sale costs and the source of any proposed value change separately. This guide supplies no appreciation forecast, market-wide return or loan-qualification determination."
+        ]
+      },
+      {
+        "id": "changing-markets",
+        "heading": "Date the evidence and revisit changes",
+        "paragraphs": [
+          "Keep the rule version, dataset period, quote date and person confirming each material item. Record proposed changes as proposed, not enacted. A prior-year roundup title should not substitute for current evidence.",
+          "Before advancing the plan, list the remaining questions, their responsible reviewers and the decisions they affect. When a material condition changes, revisit the affected permission, operating or financial assumptions. An evidence record supports a review; it does not replace it."
+        ]
+      }
+    ],
+    "body": "A market label does not establish that a particular home can be operated as a short-term rental, that a quoted revenue number is comparable, or that the operating plan is affordable. Start a dated evidence record for the address, ownership arrangement and intended stay pattern. This guide offers a research process; it does not rank cities or report investment returns.\n\nEarlier roundup URLs now lead to this guide because their repeated text contained no supported market rankings. No underlying market study or local dataset is being presented here. Keep observed facts, assumptions and unresolved questions in separate columns.\n\nIdentify the relevant local authority and preserve the current official rule, its effective date, and any written answer about the proposed use. Ask what approvals, inspections, occupancy restrictions, taxes and operating conditions apply. Separately review the lease, association restrictions and ownership arrangement with the appropriate parties. A neighboring listing or platform registration field is not confirmation for your address.\n\nAirbnb\u2019s city-regulations guidance points hosts toward local government and other applicable rules. It does not decide whether a specific property is eligible. If the evidence is missing or contradictory, mark the decision unresolved and identify who can answer it before relying on the operating plan.\n\nRecord the source, reporting period, property type, size, guest capacity, availability definition and treatment of cancellations for each comparison. Separate advertised nightly prices, modeled estimates and documented completed-stay results. They answer different questions. A blocked calendar night does not by itself establish a paid booking.\n\nAsk whether a revenue figure includes cleaning charges, other fees or taxes, and how many nights were available. Identify differences in amenities, location, restrictions and season. Do not convert a high advertised rate into an annual revenue forecast by assuming every available night sells. Use the pricing example linked below to see why more accommodation revenue can still leave a lower limited operating balance.\n\nConsider three invented candidates. Candidate A has a revenue spreadsheet but no confirmed answer about the proposed rental use: hold that question open. Candidate B has a current approval for a different ownership arrangement: hold until the applicable authority confirms what the proposed change requires. Candidate C has a confirmed restriction incompatible with the proposed use: stop relying on that STR operating plan unless the underlying facts or requirements legitimately change.\n\nThese examples contain no real addresses, legal determinations or investment recommendations. None is marked \u201capproved to buy.\u201d A completed permission review still leaves physical condition, financing, insurance, operating capacity and financial assumptions to assess. The fictional CSV records the evidence gaps; the blank worksheet is for the reader\u2019s own dated research.\n\nIdentify the actual access route, shoreline proximity, property construction and local authority rather than treating \u201cbeach market\u201d as a uniform category. Request property-specific hazard and insurance review, including coverage terms, exclusions, deductibles and operational interruption questions. Record who supplied each answer.\n\nFEMA explains how to use its Flood Map Service Center for flood-hazard information. A map record is an input to review, not an insurance quote, a guarantee against loss, or proof that a rental use is permitted. Record the map product and date and bring unresolved interpretation questions to the relevant authority or professional.\n\nAsk how guests, cleaners and emergency services would reach the actual property under the conditions relevant to the intended operating season. Identify responsibility for access, road service, utilities and maintenance. Confirm the service area and response assumptions with local providers rather than copying a resort-wide occupancy claim.\n\nBuild the calendar around the dates that can actually be offered. Keep a proposed winter closure, maintenance block and an unconfirmed operating date distinct from a sold night. A scenic label does not resolve those calendar assumptions.\n\nIdentify what access, dock, parking or shared-facility rights are actually included and what restrictions apply to guests. Ask the relevant owner, association or authority to confirm the proposed use. Record seasonal availability and who maintains each feature.\n\nDo not assume that a nearby home\u2019s amenities or revenue apply because both listings mention the same lake. A comparison should explain whether the guest experience, accessible facilities and operating dates are genuinely comparable.\n\nIdentify the jurisdiction, building, unit and proposed ownership or tenancy arrangement. Preserve the applicable building or association documents alongside the government review. Ask about guest access, parking, occupancy and any operating conditions relevant to that unit.\n\nSeparate a listing that operates under an owner-occupancy arrangement from a proposed non-owner-occupied operation. Similar bedrooms and proximity to an attraction do not establish equivalent permission or economics.\n\nRequest a property-specific assessment of the systems and amenities the operating plan depends on. Record maintenance responsibilities, service availability and any seasonal limitations. A pool, cooling system or outdoor feature appearing in a listing does not establish its condition, running cost or permitted use.\n\nNOAA\u2019s Storm Events Database provides historical event records. Use the documented location, period and reporting scope as context; it does not forecast bookings, measure a particular building\u2019s condition or establish future losses. Keep an insurer\u2019s or inspector\u2019s specific assessment separate from regional historical data.\n\nSeparate acquisition cash, launch work, operating costs, turnover costs, financing obligations and reserves in the proposed plan. Ask which items are supported by a quote or actual statement and which remain assumptions. A lower purchase price or larger gross revenue estimate does not by itself establish more owner cash.\n\nKeep appreciation assumptions outside the operating cash calculation. Record the holding period, possible sale costs and the source of any proposed value change separately. This guide supplies no appreciation forecast, market-wide return or loan-qualification determination.\n\nKeep the rule version, dataset period, quote date and person confirming each material item. Record proposed changes as proposed, not enacted. A prior-year roundup title should not substitute for current evidence.\n\nBefore advancing the plan, list the remaining questions, their responsible reviewers and the decisions they affect. When a material condition changes, revisit the affected permission, operating or financial assumptions. An evidence record supports a review; it does not replace it.",
+    "sourcesChecked": "November 22, 2026",
+    "sources": [
+      {
+        "label": "Airbnb: city rules and other applicable requirements",
+        "url": "https://www.airbnb.com/help/article/961"
+      },
+      {
+        "label": "FEMA: using the Flood Map Service Center",
+        "url": "https://emilms.fema.gov/is_0273/groups/120.html"
+      },
+      {
+        "label": "NOAA NCEI: Storm Events Database scope and reporting FAQ",
+        "url": "https://www.ncei.noaa.gov/access/storm-events-database/faq"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Download the fictional evidence-screen cases (CSV)",
+        "url": "/assets/worksheets/market-fictional-evidence-screen.csv"
+      },
+      {
+        "label": "Download a blank market evidence record (CSV)",
+        "url": "/assets/worksheets/market-evidence-record.csv"
+      },
+      {
+        "label": "Read the checked fictional pricing comparison",
+        "url": "/blog/the-complete-guide-to-airbnb-pricing-strategy"
+      },
+      {
+        "label": "Browse the markets and demand answer collection",
+        "url": "/topics/markets"
+      },
+      {
+        "label": "Read the editorial policy",
+        "url": "/editorial"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does this guide rank the best STR cities?",
+        "a": "No. It provides an evidence-led research process and geographic screening questions. It contains no ranked market dataset or expected investment return."
+      },
+      {
+        "q": "Does another listing prove that my address can host short stays?",
+        "a": "No. Confirm the actual address, proposed arrangement and current applicable requirements with the relevant parties. Treat missing evidence as unresolved."
+      },
+      {
+        "q": "Is a high nightly rate the same as strong annual cash flow?",
+        "a": "No. Available nights, sold nights, fees, turnovers, operating costs and excluded obligations affect the calculation. Advertised rates and modeled estimates are not completed-stay results."
+      }
+    ]
   }
 }

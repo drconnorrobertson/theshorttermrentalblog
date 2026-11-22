@@ -22,5 +22,157 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/blog/best-beach-markets-for-str-investing-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#beach",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-beach-markets-for-str-investing-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#beach",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-beach-markets-for-str-investing-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#beach",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-mountain-markets-for-str-investing-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#mountain",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-mountain-markets-for-str-investing-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#mountain",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-mountain-markets-for-str-investing-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#mountain",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-lake-markets-for-str-investing-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#lake",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-lake-markets-for-str-investing-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#lake",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-lake-markets-for-str-investing-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#lake",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-urban-markets-for-str-investing-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#urban",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-urban-markets-for-str-investing-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#urban",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-urban-markets-for-str-investing-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#urban",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-desert-markets-for-str-investing-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#desert",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-desert-markets-for-str-investing-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#desert",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-desert-markets-for-str-investing-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#desert",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/most-affordable-str-markets-with-high-returns-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/most-affordable-str-markets-with-high-returns-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/most-affordable-str-markets-with-high-returns-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/highest-revenue-str-markets-in-the-united-states-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#revenue-evidence",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/highest-revenue-str-markets-in-the-united-states-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#revenue-evidence",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/highest-revenue-str-markets-in-the-united-states-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#revenue-evidence",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-first-time-investors-in-2026",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#first-property",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-first-time-investors-in-2026/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#first-property",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-first-time-investors-in-2026.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#first-property",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-cash-flow-vs-appreciation",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-cash-flow-vs-appreciation/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-str-markets-for-cash-flow-vs-appreciation.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#cost-and-cash",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/emerging-str-markets-to-watch-in-2026-and-2027",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#changing-markets",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/emerging-str-markets-to-watch-in-2026-and-2027/",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#changing-markets",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/emerging-str-markets-to-watch-in-2026-and-2027.html",
+      "destination": "/blog/str-market-research-how-to-identify-your-next-investment-market#changing-markets",
+      "statusCode": 301
+    }
   ]
 }

@@ -45,3 +45,18 @@ test('reviewed content cannot silently add a new URL or replace publication iden
   assert.throws(()=>applyReviewedPosts({posts:original},{unknown:{body:'New'}}),/no existing owner/);
   assert.throws(()=>applyReviewedPosts({posts:original},{first:{date:'2026-11-22'}}),/identity\/publication/);
 });
+
+const {applyRetiredPosts,validateRetiredRoutes}=await import('./article-data.mjs');
+test('retirement rejects unknown slugs and retired or missing destinations',()=>{
+ const rule={destination:'/blog/second',fragment:'evidence'};
+ assert.throws(()=>applyRetiredPosts({posts:original},{redirects:{unknown:rule}}),/no existing owner/);
+ assert.throws(()=>applyRetiredPosts({posts:original},{redirects:{first:rule,second:{destination:'/blog/first',fragment:'evidence'}}}),/Invalid retired destination/);
+ assert.throws(()=>applyRetiredPosts({posts:original},{redirects:{first:{destination:'/blog/missing',fragment:'evidence'}}}),/Invalid retired destination/);
+});
+test('retirement requires every permanent URL form, not just a filtered sitemap',()=>{
+ const manifest={redirects:{first:{destination:'/blog/second',fragment:'evidence'}}};
+ const redirects=['','/','.html'].map(s=>({source:'/blog/first'+s,destination:'/blog/second#evidence',statusCode:301}));
+ assert.doesNotThrow(()=>validateRetiredRoutes(manifest,{redirects}));
+ assert.throws(()=>validateRetiredRoutes(manifest,{redirects:redirects.slice(1)}),/Missing permanent/);
+ assert.throws(()=>validateRetiredRoutes(manifest,{redirects:redirects.map(r=>({...r,statusCode:302}))}),/Missing permanent/);
+});
