@@ -1,0 +1,4 @@
+scenario,available_nights,sold_nights,average_nightly_rate,completed_stays,occupancy_percent,accommodation_revenue,assumed_host_fee_rate,modeled_host_fee,selected_nightly_cost,turnover_cost,selected_fixed_operating_cost,balance_before_excluded_costs
+A,30,18,160.00,6,60.00,2880.00,0.155,446.40,540.00,420.00,1500.00,-26.40
+B,30,22,140.00,11,73.33,3080.00,0.155,477.40,660.00,770.00,1500.00,-327.40
+C,30,14,200.00,4,46.67,2800.00,0.155,434.00,420.00,280.00,1500.00,166.00
