@@ -34,3 +34,14 @@ test('whitespace and capitalization cannot hide a title-swapped copy', () => {
   const copies = [original[0], post('second', 'Second topic', 'AN explanation of SECOND TOPIC.\nShared  detail.')];
   assert.equal(auditDistinctness(copies, []).errors.length, 1);
 });
+
+const {applyReviewedPosts} = await import('./article-data.mjs');
+test('reviewed content is checked rather than allowing copies behind unique legacy bodies', () => {
+  const data={posts:original.map((p,i)=>({...p,body:'Unique legacy answer '+i}))};
+  const revised=applyReviewedPosts(data,{first:{sections:[{paragraphs:['Copied reviewed answer.']}]},second:{sections:[{paragraphs:['Copied reviewed answer.']}]}});
+  assert.equal(auditDistinctness(revised.posts,[]).errors.length,1);
+});
+test('reviewed content cannot silently add a new URL or replace publication identity', () => {
+  assert.throws(()=>applyReviewedPosts({posts:original},{unknown:{body:'New'}}),/no existing owner/);
+  assert.throws(()=>applyReviewedPosts({posts:original},{first:{date:'2026-11-22'}}),/identity\/publication/);
+});

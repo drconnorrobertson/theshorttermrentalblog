@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {readArticleData} from './article-data.mjs';
 
 export function bodyFingerprints(post) {
   const body = post.sections
@@ -39,7 +40,7 @@ export function auditDistinctness(posts, legacyGroups) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-  const {posts} = JSON.parse(fs.readFileSync(path.join(root, 'blog-posts.json'), 'utf8'));
+  const {posts} = readArticleData(root);
   const baseline = JSON.parse(fs.readFileSync(path.join(root, 'editorial/legacy-duplicate-bodies.json'), 'utf8'));
   const result = auditDistinctness(posts, baseline.groups);
   if (result.errors.length) {

@@ -1,0 +1,153 @@
+{
+  "the-complete-guide-to-airbnb-pricing-strategy": {
+    "updated": "2026-11-22",
+    "description": "A fictional Airbnb pricing example compares occupancy, nightly rates, turnover costs and a limited cash balance, with CSV calculations and a blank review log.",
+    "sections": [
+      {
+        "heading": "Start with a dated calendar and a cost definition",
+        "paragraphs": [
+          "A pricing review should state what a quoted rate is expected to cover, which dates are actually available, and which costs change with each stay. A higher nightly rate, higher occupancy and a higher cash balance are three different outcomes. None follows automatically from changing a setting.",
+          "The example below compares three invented operating scenarios for one 30-night period. All 30 nights are assumed available. Nights sold, booking counts and rates are independent scenario inputs, not predictions of how guests respond to a price. There is no market sample, client result or claim that one scenario can be achieved."
+        ]
+      },
+      {
+        "heading": "Three fictional scenarios: more nights can leave less cash",
+        "paragraphs": [
+          "All amounts are fictional US dollars. The calculation assumes a 15.5% host service fee on accommodation revenue only, $30 of selected variable costs per sold night, $70 per completed stay for turnover, and $1,500 of selected fixed operating costs. Guest-paid cleaning and other host charges are zero. Taxes, refunds and currency effects are not modeled. Use the actual fee base and transaction fee for your listing rather than applying this assumption indiscriminately.",
+          "The final balance is before debt payments, income taxes, capital spending, replacement reserves and owner compensation. It is not net profit, distributable cash, or a return on an investment. Even the positive case may not fund those excluded requirements."
+        ]
+      },
+      {
+        "heading": "Read the result without turning assumptions into a forecast",
+        "paragraphs": [
+          "Scenario B sells 22 nights at $140, compared with 18 nights at $160 in A. Its accommodation revenue is $200 higher, but the modeled fee rises $31, nightly costs rise $120, and five additional turnovers add $350. The balance therefore declines by $301: from negative $26.40 to negative $327.40. The higher occupancy does not make B the better cash result under these assumptions.",
+          "Scenario C has the highest rate and the fewest nights and turnovers, leaving $166 before the excluded costs. This does not prove that raising a rate produces C. The assumed 14 sold nights might not occur, and different stay patterns or costs can reverse the comparison. Keep the demand assumption separate from the arithmetic.",
+          "For this worksheet, accommodation revenue equals sold nights times average nightly rate; occupancy equals sold nights divided by available nights. Deduct the modeled host fee, sold-night costs, turnover costs and selected fixed costs to obtain the displayed balance. Reconcile actual statements before treating these categories as complete."
+        ]
+      },
+      {
+        "heading": "Confirm the actual fee and the guest-facing total",
+        "paragraphs": [
+          "Airbnb publishes different fee structures and says it is transitioning home hosts toward a single host service fee. The single-fee guidance describes 15.5% for most hosts, with exceptions. Confirm the fee on the relevant reservation and check the current guidance; do not use an old blanket 3% assumption for every listing. Additional host charges can also affect the fee base.",
+          "Compare the guest-facing total for the same dates, length of stay and guest count, as well as the host payout. A cleaning charge paid by a guest is revenue and a separate turnover cost is an expense; omitting one side or counting it twice changes the model. Record refunds and adjustments separately."
+        ]
+      },
+      {
+        "heading": "Review discounts and calendar controls together",
+        "paragraphs": [
+          "Airbnb Smart Pricing lets hosts set a minimum and maximum, but Airbnb states that discounts can take the guest price below the Smart Pricing minimum. Custom calendar prices, trip-length discounts and other controls therefore need review together. A minimum entered in one field is not a complete test of every bookable itinerary.",
+          "Before a proposed change, record the listing, dates, current settings, intended price, discounts, minimum stay and the guest-facing breakdown for representative itineraries. After a change, inspect those same itineraries. This checks what is offered; it does not establish that a booking or revenue increase will follow."
+        ]
+      },
+      {
+        "heading": "Use a review log with comparable periods",
+        "paragraphs": [
+          "Keep a dated reason for each pricing change and the next review date. Preserve the prior settings and actual results. Note unavailable nights, owner blocks, local events, cancellations and changes to the listing, so a different calendar is not presented as a clean price experiment.",
+          "Compare sold nights, average rate, accommodation revenue, fee deductions, completed stays and the same cost categories. Separate observed results from a proposed scenario and from a budget. If observations are sparse, record the uncertainty rather than announcing an optimal rate or a fixed time to results. The downloadable blank record is intended for that review."
+        ]
+      }
+    ],
+    "body": "A pricing review should state what a quoted rate is expected to cover, which dates are actually available, and which costs change with each stay. A higher nightly rate, higher occupancy and a higher cash balance are three different outcomes. None follows automatically from changing a setting.\n\nThe example below compares three invented operating scenarios for one 30-night period. All 30 nights are assumed available. Nights sold, booking counts and rates are independent scenario inputs, not predictions of how guests respond to a price. There is no market sample, client result or claim that one scenario can be achieved.\n\nAll amounts are fictional US dollars. The calculation assumes a 15.5% host service fee on accommodation revenue only, $30 of selected variable costs per sold night, $70 per completed stay for turnover, and $1,500 of selected fixed operating costs. Guest-paid cleaning and other host charges are zero. Taxes, refunds and currency effects are not modeled. Use the actual fee base and transaction fee for your listing rather than applying this assumption indiscriminately.\n\nThe final balance is before debt payments, income taxes, capital spending, replacement reserves and owner compensation. It is not net profit, distributable cash, or a return on an investment. Even the positive case may not fund those excluded requirements.\n\nScenario B sells 22 nights at $140, compared with 18 nights at $160 in A. Its accommodation revenue is $200 higher, but the modeled fee rises $31, nightly costs rise $120, and five additional turnovers add $350. The balance therefore declines by $301: from negative $26.40 to negative $327.40. The higher occupancy does not make B the better cash result under these assumptions.\n\nScenario C has the highest rate and the fewest nights and turnovers, leaving $166 before the excluded costs. This does not prove that raising a rate produces C. The assumed 14 sold nights might not occur, and different stay patterns or costs can reverse the comparison. Keep the demand assumption separate from the arithmetic.\n\nFor this worksheet, accommodation revenue equals sold nights times average nightly rate; occupancy equals sold nights divided by available nights. Deduct the modeled host fee, sold-night costs, turnover costs and selected fixed costs to obtain the displayed balance. Reconcile actual statements before treating these categories as complete.\n\nAirbnb publishes different fee structures and says it is transitioning home hosts toward a single host service fee. The single-fee guidance describes 15.5% for most hosts, with exceptions. Confirm the fee on the relevant reservation and check the current guidance; do not use an old blanket 3% assumption for every listing. Additional host charges can also affect the fee base.\n\nCompare the guest-facing total for the same dates, length of stay and guest count, as well as the host payout. A cleaning charge paid by a guest is revenue and a separate turnover cost is an expense; omitting one side or counting it twice changes the model. Record refunds and adjustments separately.\n\nAirbnb Smart Pricing lets hosts set a minimum and maximum, but Airbnb states that discounts can take the guest price below the Smart Pricing minimum. Custom calendar prices, trip-length discounts and other controls therefore need review together. A minimum entered in one field is not a complete test of every bookable itinerary.\n\nBefore a proposed change, record the listing, dates, current settings, intended price, discounts, minimum stay and the guest-facing breakdown for representative itineraries. After a change, inspect those same itineraries. This checks what is offered; it does not establish that a booking or revenue increase will follow.\n\nKeep a dated reason for each pricing change and the next review date. Preserve the prior settings and actual results. Note unavailable nights, owner blocks, local events, cancellations and changes to the listing, so a different calendar is not presented as a clean price experiment.\n\nCompare sold nights, average rate, accommodation revenue, fee deductions, completed stays and the same cost categories. Separate observed results from a proposed scenario and from a budget. If observations are sparse, record the uncertainty rather than announcing an optimal rate or a fixed time to results. The downloadable blank record is intended for that review.",
+    "sourcesChecked": "November 22, 2026",
+    "sources": [
+      {
+        "label": "Airbnb: service fee structures and reservation-level fees",
+        "url": "https://www.airbnb.com/help/article/1857"
+      },
+      {
+        "label": "Airbnb: Smart Pricing, custom prices and discounts",
+        "url": "https://www.airbnb.com/help/article/1168"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Download the fictional pricing calculations (CSV)",
+        "url": "/assets/worksheets/pricing-fictional-scenarios.csv"
+      },
+      {
+        "label": "Download a blank pricing review record (CSV)",
+        "url": "/assets/worksheets/pricing-review-record.csv"
+      },
+      {
+        "label": "Explore the separate cash-flow tool and its assumptions",
+        "url": "/tools/cash-flow"
+      },
+      {
+        "label": "Read the editorial and commercial disclosure",
+        "url": "/editorial"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does the highest occupancy produce the highest cash balance?",
+        "a": "No. Fictional scenario B has the most sold nights and the highest accommodation revenue, but additional turnover and nightly costs leave the lowest modeled balance. Actual results depend on actual demand and costs."
+      },
+      {
+        "q": "Is the 15.5% fee a universal Airbnb fee?",
+        "a": "No. It is the selected assumption in this example. Airbnb describes different structures and exceptions; use the actual fee and fee base for the relevant reservation and current listing."
+      },
+      {
+        "q": "Does a positive scenario balance mean the property is profitable?",
+        "a": "No. This model excludes debt payments, income taxes, capital spending, replacement reserves and owner compensation. The displayed balance is incomplete for assessing overall profit or available owner cash."
+      },
+      {
+        "q": "Does a Smart Pricing minimum prevent every discounted price below it?",
+        "a": "No. Airbnb states that discounts can take the guest price below the Smart Pricing minimum. Review the combined settings and actual guest-facing breakdown."
+      }
+    ],
+    "workedTable": {
+      "afterSectionIndex": 1,
+      "caption": "Fictional 30-night scenarios; balance before excluded costs",
+      "headers": [
+        "Scenario",
+        "Sold nights / occupancy",
+        "Average rate",
+        "Completed stays",
+        "Accommodation revenue",
+        "Host fee",
+        "Nightly costs",
+        "Turnover costs",
+        "Fixed costs",
+        "Limited balance"
+      ],
+      "rows": [
+        [
+          "A",
+          "18 / 60.00%",
+          "$160.00",
+          "6",
+          "$2880.00",
+          "$446.40",
+          "$540.00",
+          "$420.00",
+          "$1500.00",
+          "$-26.40"
+        ],
+        [
+          "B",
+          "22 / 73.33%",
+          "$140.00",
+          "11",
+          "$3080.00",
+          "$477.40",
+          "$660.00",
+          "$770.00",
+          "$1500.00",
+          "$-327.40"
+        ],
+        [
+          "C",
+          "14 / 46.67%",
+          "$200.00",
+          "4",
+          "$2800.00",
+          "$434.00",
+          "$420.00",
+          "$280.00",
+          "$1500.00",
+          "$166.00"
+        ]
+      ]
+    }
+  }
+}
