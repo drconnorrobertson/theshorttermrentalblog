@@ -1,0 +1,5 @@
+fictional_case,available_nights,nightly_rate,nights_per_completed_stay,assumed_host_fee_rate,selected_cost_per_sold_night,turnover_cost_per_completed_stay,selected_fixed_operating_costs,contribution_per_completed_stay,minimum_whole_completed_stays,required_sold_nights,required_occupancy_percent,limited_balance_at_minimum
+Three-night stays,30,180,3,0.155,25,70,2000,311.30,7,21,70.00,179.10
+Two-night stays,30,180,2,0.155,25,70,2000,184.20,11,22,73.33,26.20
+Five-night stays,30,180,5,0.155,25,70,2000,565.50,4,20,66.67,262.00
+Negative contribution,30,50,2,0.155,25,70,2000,-35.50,not attainable,not attainable,not attainable,not attainable

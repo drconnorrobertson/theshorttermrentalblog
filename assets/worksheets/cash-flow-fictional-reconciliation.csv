@@ -1,0 +1,17 @@
+fictional_record,line,amount
+settlement,Accommodation charges,5000.00
+settlement,Host cleaning charges,500.00
+settlement,Statement reduction,-200.00
+settlement,Selected fee base,5300.00
+settlement,Host fee,-821.50
+settlement,Expected net settlement,4478.50
+settlement,Received by review date,4000.00
+settlement,Not yet received,478.50
+bank_bridge,Opening bank balance,2000.00
+bank_bridge,Payout actually received,4000.00
+bank_bridge,Selected operating payments,-2400.00
+bank_bridge,Debt payments,-900.00
+bank_bridge,Capital spending,-1200.00
+bank_bridge,External owner funding,1500.00
+bank_bridge,Owner withdrawal,-500.00
+bank_bridge,Closing bank balance,2500.00
