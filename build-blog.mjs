@@ -226,6 +226,18 @@ for (const post of posts) {
   postsByCategory[post.category].push(post);
 }
 
+function collectionSchemas(url, name, visiblePosts, categoryLinks = []) {
+  const fullUrl=origin+url;
+  const crumbs=[{name:'Home',item:origin+'/'},{name:'Blog',item:origin+'/blog'}];
+  if(url!=='/blog') crumbs.push({name,item:fullUrl});
+  return [
+    {'@context':'https://schema.org','@type':'CollectionPage','@id':fullUrl+'#webpage',url:fullUrl,name,
+      mainEntity:{'@type':'ItemList',numberOfItems:visiblePosts.length,itemListElement:visiblePosts.map((post,index)=>({'@type':'ListItem',position:index+1,item:{'@type':'WebPage',name:post.title,url:origin+'/blog/'+post.slug}}))},
+      ...(categoryLinks.length?{hasPart:categoryLinks.map(cat=>({'@type':'CollectionPage',name:cat.name,url:origin+'/blog/category/'+cat.slug}))}:{})},
+    {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((crumb,index)=>({'@type':'ListItem',position:index+1,...crumb}))}
+  ];
+}
+
 const blogIndexCards = posts.slice(0, 12).map(p => `
 <a class="answer-card" href="/blog/${p.slug}">
 <span class="eyebrow">${esc(p.categoryName)}</span>
@@ -261,7 +273,8 @@ blogPage('/blog', 'Short-Term Rental Blog: Guides, Tips, and Market Analysis',
 <p>BnB Accelerator handles property sourcing, analysis, closing, furnishing, and launch so you can build your STR portfolio with expert guidance.</p>
 </div>
 <a class="button" href="https://www.bnbaccelerator.com">Visit BnB Accelerator &rarr;</a>
-</section>`
+</section>`,
+  {schema:collectionSchemas('/blog', 'Short-Term Rental Blog: Guides, Tips, and Market Analysis', posts.slice(0,12), Object.values(categories))}
 );
 
 // Generate category pages
@@ -284,7 +297,8 @@ for (const [id, cat] of Object.entries(categories)) {
 <h1>${esc(cat.name)}</h1>
 <p>${catPosts.length} articles</p>
 </section>
-<div class="answer-grid section">${cards}</div>`
+<div class="answer-grid section">${cards}</div>`,
+    {schema:collectionSchemas('/blog/category/'+cat.slug, cat.name+': Short-Term Rental Guides', catPosts)}
   );
 }
 
