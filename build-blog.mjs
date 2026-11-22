@@ -90,7 +90,7 @@ ${schemas.map(item => `<script type="application/ld+json">${JSON.stringify(item)
 // Generate individual blog post pages
 for (const post of posts) {
   const paragraphs = post.body.split('\n\n').filter(Boolean);
-  const workedTable = post.workedTable ? `<style>.article{min-width:0}.pricing-scroll{max-width:100%;overflow-x:auto;margin:1.5rem 0}.pricing-scroll:focus-visible{outline:2px solid #183b34}.pricing-scroll table{border-collapse:collapse;min-width:1100px;width:100%}.pricing-scroll th,.pricing-scroll td{padding:.7rem;text-align:left;vertical-align:top;border-bottom:1px solid #a3b6aa}.pricing-scroll caption{text-align:left;padding:.7rem 0;font-weight:700}</style><div class="pricing-scroll" role="region" tabindex="0" aria-label="Fictional pricing scenario comparison"><table><caption>${esc(post.workedTable.caption)}</caption><thead><tr>${post.workedTable.headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${post.workedTable.rows.map(row=>`<tr>${row.map((v,i)=>i===0?`<th scope="row">${esc(v)}</th>`:`<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
+  const workedTable = post.workedTable ? `<style>.article{min-width:0}.pricing-scroll{max-width:100%;overflow-x:auto;margin:1.5rem 0}.pricing-scroll:focus-visible{outline:2px solid #183b34}.pricing-scroll table{border-collapse:collapse;min-width:${post.workedTable.minWidth||1100}px;width:100%}.pricing-scroll th,.pricing-scroll td{padding:.7rem;text-align:left;vertical-align:top;border-bottom:1px solid #a3b6aa}.pricing-scroll caption{text-align:left;padding:.7rem 0;font-weight:700}</style><div class="pricing-scroll" role="region" tabindex="0" aria-label="${esc(post.workedTable.label||'Fictional pricing scenario comparison')}"><table><caption>${esc(post.workedTable.caption)}</caption><thead><tr>${post.workedTable.headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${post.workedTable.rows.map(row=>`<tr>${row.map((v,i)=>i===0?`<th scope="row">${esc(v)}</th>`:`<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
   const bodyHtml = post.sections ? post.sections.map((s,i) => `<section${s.id?` id="${esc(s.id)}"`: ''}><h2>${esc(s.heading)}</h2>${s.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</section>${post.workedTable?.afterSectionIndex===i?workedTable:''}`).join('\n') : paragraphs.map(p => `<p>${esc(p)}</p>`).join('\n');
   const sourceHtml = post.sources?.length ? `<section><h2>Sources and scope</h2><p>Primary sources checked ${esc(post.sourcesChecked || "October 25, 2026")}. Operating examples and proposed workflows are editorial guidance, not reported client outcomes.</p><ul>${post.sources.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
   const linkHtml = post.relatedLinks?.length ? `<section><h2>Practical next steps</h2><ul>${post.relatedLinks.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('')}</ul></section>` : '';
@@ -378,6 +378,11 @@ for(const file of ["pricing-fictional-scenarios.csv","pricing-review-record.csv"
 }
 
 for(const file of ["market-fictional-evidence-screen.csv","market-evidence-record.csv"]) {
+ fs.mkdirSync("dist/assets/worksheets",{recursive:true});
+ fs.copyFileSync(path.join("assets/worksheets",file),path.join("dist/assets/worksheets",file));
+}
+
+for(const file of ["break-even-fictional-bookings.csv","cash-flow-fictional-reconciliation.csv","cash-flow-payout-record.csv"]) {
  fs.mkdirSync("dist/assets/worksheets",{recursive:true});
  fs.copyFileSync(path.join("assets/worksheets",file),path.join("dist/assets/worksheets",file));
 }

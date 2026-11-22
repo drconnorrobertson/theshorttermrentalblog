@@ -296,5 +296,274 @@
         "a": "No. Available nights, sold nights, fees, turnovers, operating costs and excluded obligations affect the calculation. Advertised rates and modeled estimates are not completed-stay results."
       }
     ]
+  },
+  "how-to-calculate-your-str-break-even-point": {
+    "updated": "2026-11-22",
+    "description": "Work through complete-booking STR break-even examples, turnover effects, a negative-contribution case and calendar limits. Download the fictional calculations.",
+    "sections": [
+      {
+        "heading": "Define what the break-even calculation covers",
+        "paragraphs": [
+          "A break-even threshold belongs to a stated set of costs and booking assumptions. It is not a forecast that those bookings will occur, and it does not establish the property\u2019s overall profit or ability to fund every obligation. Separate the arithmetic from the demand evidence.",
+          "This fictional exercise uses a 30-night available calendar, a $180 nightly rate except in the last case, a selected 15.5% host fee on accommodation revenue, $25 per sold night of selected variable costs, $70 per completed stay for turnover, and $2,000 of selected fixed operating costs. Guest-paid cleaning and other host charges are zero. All values are invented US-dollar inputs, not market benchmarks or a quote.",
+          "Debt payments, income taxes, capital spending, replacement reserves and owner compensation are excluded. A threshold covering these selected operating costs is not an all-in cash requirement. Add the missing requirements and review their timing before using a model for a real property."
+        ]
+      },
+      {
+        "heading": "Count complete bookings when the stay pattern is fixed",
+        "paragraphs": [
+          "At $180 per night, the assumed fee leaves $152.10 before nightly and turnover costs. One three-night booking contributes $540 minus $83.70 of fees, $75 of nightly costs and $70 of turnover: $311.30 toward the selected fixed costs. Six such bookings sell 18 nights and contribute $1,867.80, leaving a $132.20 shortfall against $2,000.",
+          "Seven complete three-night bookings sell 21 nights and contribute $2,179.10, leaving $179.10 after the selected fixed costs. On this 30-night available calendar, that is 70% occupancy. Rounding a continuous nights-only formula to 20 nights would not describe an attainable schedule if every completed booking is assumed to be exactly three nights. Real calendars can contain mixed stay lengths, gaps and restrictions; model those actual conditions separately."
+        ]
+      },
+      {
+        "heading": "Change the stay length before declaring a universal occupancy target",
+        "paragraphs": [
+          "For identical nightly-rate and cost assumptions, shorter stays create more turnover expense for a given number of sold nights. In the fictional two-night case, one completed stay contributes $184.20; ten stays contribute $1,842 and remain $158 short. Eleven stays sell 22 nights and leave $26.20 after the selected fixed costs.",
+          "In the five-night case, one stay contributes $565.50. Three stays remain $303.50 short, while four stays sell 20 nights and leave $262. These are different booking patterns, not a prediction that one minimum-stay setting will produce those results. A usable calendar may not accommodate the assumed bookings."
+        ]
+      },
+      {
+        "heading": "Recognize when more bookings do not solve the model",
+        "paragraphs": [
+          "At a fictional $50 nightly rate and two-night stays, accommodation revenue per stay is $100. Deduct $15.50 of assumed fees, $50 of nightly costs and $70 of turnover; contribution is negative $35.50 before fixed costs. There is no finite positive number of identical stays that covers the $2,000 fixed-cost amount. Each added stay increases the shortfall under those assumptions.",
+          "A positive contribution can still require more sold nights than are available. Check both the contribution and calendar capacity. Do not display an occupancy figure above 100% as an achievable target or treat an error from division by zero as an operating answer."
+        ]
+      },
+      {
+        "heading": "Use actual statements and a clearly defined denominator",
+        "paragraphs": [
+          "Airbnb describes different fee structures and reservation-level fee information. Use the actual fee and fee base for the relevant listing and reservation, including additional host charges where applicable. The selected 15.5% input here is not a universal fee.",
+          "Available nights must be defined consistently. If the owner blocks dates or the property cannot operate for part of the period, disclose how those dates affect the denominator. Preserve the dates and booking constraints behind a scenario; a percentage alone does not show that the schedule is feasible.",
+          "Download the calculations and replace the assumptions with supported inputs. Keep the result labeled as a limited operating threshold until the excluded obligations have been addressed. The separate cash-flow guide explains why a booking-level amount and a bank deposit can also differ."
+        ]
+      }
+    ],
+    "body": "A break-even threshold belongs to a stated set of costs and booking assumptions. It is not a forecast that those bookings will occur, and it does not establish the property\u2019s overall profit or ability to fund every obligation. Separate the arithmetic from the demand evidence.\n\nThis fictional exercise uses a 30-night available calendar, a $180 nightly rate except in the last case, a selected 15.5% host fee on accommodation revenue, $25 per sold night of selected variable costs, $70 per completed stay for turnover, and $2,000 of selected fixed operating costs. Guest-paid cleaning and other host charges are zero. All values are invented US-dollar inputs, not market benchmarks or a quote.\n\nDebt payments, income taxes, capital spending, replacement reserves and owner compensation are excluded. A threshold covering these selected operating costs is not an all-in cash requirement. Add the missing requirements and review their timing before using a model for a real property.\n\nAt $180 per night, the assumed fee leaves $152.10 before nightly and turnover costs. One three-night booking contributes $540 minus $83.70 of fees, $75 of nightly costs and $70 of turnover: $311.30 toward the selected fixed costs. Six such bookings sell 18 nights and contribute $1,867.80, leaving a $132.20 shortfall against $2,000.\n\nSeven complete three-night bookings sell 21 nights and contribute $2,179.10, leaving $179.10 after the selected fixed costs. On this 30-night available calendar, that is 70% occupancy. Rounding a continuous nights-only formula to 20 nights would not describe an attainable schedule if every completed booking is assumed to be exactly three nights. Real calendars can contain mixed stay lengths, gaps and restrictions; model those actual conditions separately.\n\nFor identical nightly-rate and cost assumptions, shorter stays create more turnover expense for a given number of sold nights. In the fictional two-night case, one completed stay contributes $184.20; ten stays contribute $1,842 and remain $158 short. Eleven stays sell 22 nights and leave $26.20 after the selected fixed costs.\n\nIn the five-night case, one stay contributes $565.50. Three stays remain $303.50 short, while four stays sell 20 nights and leave $262. These are different booking patterns, not a prediction that one minimum-stay setting will produce those results. A usable calendar may not accommodate the assumed bookings.\n\nAt a fictional $50 nightly rate and two-night stays, accommodation revenue per stay is $100. Deduct $15.50 of assumed fees, $50 of nightly costs and $70 of turnover; contribution is negative $35.50 before fixed costs. There is no finite positive number of identical stays that covers the $2,000 fixed-cost amount. Each added stay increases the shortfall under those assumptions.\n\nA positive contribution can still require more sold nights than are available. Check both the contribution and calendar capacity. Do not display an occupancy figure above 100% as an achievable target or treat an error from division by zero as an operating answer.\n\nAirbnb describes different fee structures and reservation-level fee information. Use the actual fee and fee base for the relevant listing and reservation, including additional host charges where applicable. The selected 15.5% input here is not a universal fee.\n\nAvailable nights must be defined consistently. If the owner blocks dates or the property cannot operate for part of the period, disclose how those dates affect the denominator. Preserve the dates and booking constraints behind a scenario; a percentage alone does not show that the schedule is feasible.\n\nDownload the calculations and replace the assumptions with supported inputs. Keep the result labeled as a limited operating threshold until the excluded obligations have been addressed. The separate cash-flow guide explains why a booking-level amount and a bank deposit can also differ.",
+    "sourcesChecked": "November 22, 2026",
+    "sources": [
+      {
+        "label": "Airbnb: fee structures and reservation-level host fees",
+        "url": "https://www.airbnb.com/help/article/1857"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Download the four fictional break-even cases (CSV)",
+        "url": "/assets/worksheets/break-even-fictional-bookings.csv"
+      },
+      {
+        "label": "Reconcile reservation amounts to actual cash",
+        "url": "/blog/str-cash-flow-analysis-the-complete-framework"
+      },
+      {
+        "label": "Compare the separate fictional pricing scenarios",
+        "url": "/blog/the-complete-guide-to-airbnb-pricing-strategy"
+      },
+      {
+        "label": "Review address-level market evidence",
+        "url": "/blog/str-market-research-how-to-identify-your-next-investment-market"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is 70% occupancy a general STR break-even target?",
+        "a": "No. It is the result of the stated fictional three-night booking pattern and selected costs. Different rates, stay lengths, fees, availability and obligations change the result."
+      },
+      {
+        "q": "Why count whole bookings rather than just nights?",
+        "a": "The exercise assumes every completed stay has a fixed length and incurs a turnover cost. Whole-booking rounding keeps the scenario internally consistent; actual calendars may have mixed lengths and other constraints."
+      },
+      {
+        "q": "Can more bookings fix negative contribution per stay?",
+        "a": "Not if each additional identical stay has negative contribution under the stated assumptions. Adding those stays increases the shortfall before fixed costs."
+      }
+    ],
+    "workedTable": {
+      "afterSectionIndex": 2,
+      "caption": "Fictional whole-booking thresholds for selected operating costs",
+      "headers": [
+        "Case",
+        "Contribution per stay",
+        "Minimum whole stays",
+        "Sold nights",
+        "Occupancy on 30 available nights",
+        "Balance before excluded costs"
+      ],
+      "rows": [
+        [
+          "Three-night stays",
+          "$311.30",
+          "7",
+          "21",
+          "70.00%",
+          "$179.10"
+        ],
+        [
+          "Two-night stays",
+          "$184.20",
+          "11",
+          "22",
+          "73.33%",
+          "$26.20"
+        ],
+        [
+          "Five-night stays",
+          "$565.50",
+          "4",
+          "20",
+          "66.67%",
+          "$262.00"
+        ],
+        [
+          "Negative contribution",
+          "$-35.50",
+          "not attainable",
+          "not attainable",
+          "not attainable",
+          "not attainable"
+        ]
+      ],
+      "minWidth": 900,
+      "label": "Fictional whole-booking break-even cases"
+    }
+  },
+  "str-cash-flow-analysis-the-complete-framework": {
+    "updated": "2026-11-22",
+    "description": "Reconcile a fictional STR reservation statement, pending settlement and bank ledger. Separate host fees, owner funding, debt and capital spending with CSV records.",
+    "sections": [
+      {
+        "heading": "Use three records rather than one revenue total",
+        "paragraphs": [
+          "A reservation report, a payout report and a bank statement describe related but different events. Start by identifying the reporting period, property, currency and accounting basis. This guide reconciles a fictional settlement and bank balance; it does not determine tax recognition or produce a complete financial statement.",
+          "Keep the gross reservation amount, adjustments, platform deductions, payout status and actual bank receipt traceable to their source records. Do not count a reservation amount and its payout as two separate receipts. A future or pending amount is not cash already available in the bank."
+        ]
+      },
+      {
+        "heading": "Reconcile a fictional settlement to paid and unpaid amounts",
+        "paragraphs": [
+          "Assume an invented reservation group has $5,000 of accommodation charges and $500 of host cleaning charges. The fictional statement records a $200 reduction, leaving a $5,300 selected fee base, and a $821.50 host fee. Those amounts produce a $4,478.50 expected net settlement. This is an assumed statement exercise, not a claim that every refund or fee is treated this way on Airbnb. Taxes, co-host allocations, currency effects and other adjustments are excluded.",
+          "The fictional payout record shows $4,000 received in the bank by the review date and $478.50 not yet received. Together they reconcile to $4,478.50. Keep the $478.50 on the unresolved settlement list with its reference and status; do not add it to current bank cash or assume a guaranteed arrival date.",
+          "Airbnb\u2019s payout guidance explains that timing varies with reservation and payout circumstances and that payment-provider processing follows release. Check the actual Earnings record, payout reference and bank receipt instead of treating a platform release label as proof of bank arrival."
+        ]
+      },
+      {
+        "heading": "Bridge the bank balance using only actual cash movements",
+        "paragraphs": [
+          "Begin the fictional bank ledger at $2,000. Add the $4,000 received payout; subtract $2,400 of selected operating payments, $900 of debt payments and $1,200 of capital spending. Then add $1,500 of owner funding and subtract a $500 owner withdrawal. The closing bank balance is $2,500. No further transactions are assumed.",
+          "Without the $1,500 owner funding, the same ledger would close at $1,000. The $500 increase from opening to closing therefore does not demonstrate $500 of operating profit. Owner funding, withdrawals, debt and capital spending have different roles and should remain identifiable rather than being folded into an undifferentiated expense or revenue line."
+        ]
+      },
+      {
+        "heading": "Avoid three common double counts",
+        "paragraphs": [
+          "First, do not subtract a platform fee again from a payout that is already net of that fee. The reservation-to-settlement reconciliation explains the deduction; the bank bridge uses the actual deposit.",
+          "Second, separate the cleaning charge received from the guest from the cleaning supplier payment. The fictional $500 cleaning revenue is included in gross reservation charges. The $2,400 operating-payment total is assumed to include actual supplier payments; no extra duplicate cleaning deduction is added.",
+          "Third, distinguish a transfer between accounts owned by the same business from new external revenue. Identify both sides and the accounts covered by the report. The $1,500 in this example is explicitly external owner funding, not a second guest receipt."
+        ]
+      },
+      {
+        "heading": "Keep unpaid amounts, obligations and profit questions visible",
+        "paragraphs": [
+          "The fictional closing bank balance excludes the $478.50 settlement not yet received. It also says nothing about unpaid bills, future refunds, taxes, reserve requirements or other obligations not recorded in the example. A positive bank balance is not a finding that the full amount can be distributed.",
+          "A debt payment can include principal and interest, and capital spending may be treated differently from an immediate expense in a financial or tax report. This cash bridge records the outflow without deciding those classifications. Give the source records to the professional preparing the relevant accounts or return."
+        ]
+      },
+      {
+        "heading": "Build a repeatable monthly reconciliation",
+        "paragraphs": [
+          "For each payout, retain the reservation or statement reference, gross components, deductions, expected net amount, release status, bank date and amount received. Investigate differences rather than forcing a matching number. Preserve the original export and record the reason for an adjustment.",
+          "Reconcile the opening bank balance plus receipts minus payments to the closing bank statement. Keep a separate list of unpaid settlements and obligations. The blank CSV is a record structure, not a tax form or a completed reconciliation. The break-even guide answers a different question: how selected operating costs compare with an assumed booking pattern."
+        ]
+      }
+    ],
+    "body": "A reservation report, a payout report and a bank statement describe related but different events. Start by identifying the reporting period, property, currency and accounting basis. This guide reconciles a fictional settlement and bank balance; it does not determine tax recognition or produce a complete financial statement.\n\nKeep the gross reservation amount, adjustments, platform deductions, payout status and actual bank receipt traceable to their source records. Do not count a reservation amount and its payout as two separate receipts. A future or pending amount is not cash already available in the bank.\n\nAssume an invented reservation group has $5,000 of accommodation charges and $500 of host cleaning charges. The fictional statement records a $200 reduction, leaving a $5,300 selected fee base, and a $821.50 host fee. Those amounts produce a $4,478.50 expected net settlement. This is an assumed statement exercise, not a claim that every refund or fee is treated this way on Airbnb. Taxes, co-host allocations, currency effects and other adjustments are excluded.\n\nThe fictional payout record shows $4,000 received in the bank by the review date and $478.50 not yet received. Together they reconcile to $4,478.50. Keep the $478.50 on the unresolved settlement list with its reference and status; do not add it to current bank cash or assume a guaranteed arrival date.\n\nAirbnb\u2019s payout guidance explains that timing varies with reservation and payout circumstances and that payment-provider processing follows release. Check the actual Earnings record, payout reference and bank receipt instead of treating a platform release label as proof of bank arrival.\n\nBegin the fictional bank ledger at $2,000. Add the $4,000 received payout; subtract $2,400 of selected operating payments, $900 of debt payments and $1,200 of capital spending. Then add $1,500 of owner funding and subtract a $500 owner withdrawal. The closing bank balance is $2,500. No further transactions are assumed.\n\nWithout the $1,500 owner funding, the same ledger would close at $1,000. The $500 increase from opening to closing therefore does not demonstrate $500 of operating profit. Owner funding, withdrawals, debt and capital spending have different roles and should remain identifiable rather than being folded into an undifferentiated expense or revenue line.\n\nFirst, do not subtract a platform fee again from a payout that is already net of that fee. The reservation-to-settlement reconciliation explains the deduction; the bank bridge uses the actual deposit.\n\nSecond, separate the cleaning charge received from the guest from the cleaning supplier payment. The fictional $500 cleaning revenue is included in gross reservation charges. The $2,400 operating-payment total is assumed to include actual supplier payments; no extra duplicate cleaning deduction is added.\n\nThird, distinguish a transfer between accounts owned by the same business from new external revenue. Identify both sides and the accounts covered by the report. The $1,500 in this example is explicitly external owner funding, not a second guest receipt.\n\nThe fictional closing bank balance excludes the $478.50 settlement not yet received. It also says nothing about unpaid bills, future refunds, taxes, reserve requirements or other obligations not recorded in the example. A positive bank balance is not a finding that the full amount can be distributed.\n\nA debt payment can include principal and interest, and capital spending may be treated differently from an immediate expense in a financial or tax report. This cash bridge records the outflow without deciding those classifications. Give the source records to the professional preparing the relevant accounts or return.\n\nFor each payout, retain the reservation or statement reference, gross components, deductions, expected net amount, release status, bank date and amount received. Investigate differences rather than forcing a matching number. Preserve the original export and record the reason for an adjustment.\n\nReconcile the opening bank balance plus receipts minus payments to the closing bank statement. Keep a separate list of unpaid settlements and obligations. The blank CSV is a record structure, not a tax form or a completed reconciliation. The break-even guide answers a different question: how selected operating costs compare with an assumed booking pattern.",
+    "sourcesChecked": "November 22, 2026",
+    "sources": [
+      {
+        "label": "Airbnb: host fee structures and fee bases",
+        "url": "https://www.airbnb.com/help/article/1857"
+      },
+      {
+        "label": "Airbnb: payout timing, release and processing",
+        "url": "https://www.airbnb.com/help/article/425"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Download the fictional settlement and cash bridge (CSV)",
+        "url": "/assets/worksheets/cash-flow-fictional-reconciliation.csv"
+      },
+      {
+        "label": "Download a blank payout reconciliation record (CSV)",
+        "url": "/assets/worksheets/cash-flow-payout-record.csv"
+      },
+      {
+        "label": "Work through whole-booking break-even cases",
+        "url": "/blog/how-to-calculate-your-str-break-even-point"
+      },
+      {
+        "label": "Read the editorial and commercial disclosure",
+        "url": "/editorial"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is a payout the same as gross reservation revenue?",
+        "a": "No. Platform deductions and adjustments may separate the gross reservation amount from the payout. Use the actual transaction details and avoid counting both as separate bank receipts."
+      },
+      {
+        "q": "Does a larger closing bank balance prove operating profit?",
+        "a": "No. Owner funding, withdrawals, debt, capital spending, unpaid amounts and other timing or classification differences can change cash without establishing profit."
+      },
+      {
+        "q": "Should pending payouts be counted as bank cash?",
+        "a": "No. Keep unpaid amounts separate from actual bank receipts and reconcile their status. This guide does not determine financial-statement or tax recognition."
+      }
+    ],
+    "workedTable": {
+      "afterSectionIndex": 2,
+      "caption": "Fictional bank bridge; unpaid settlement is excluded",
+      "headers": [
+        "Cash movement",
+        "Amount in US dollars"
+      ],
+      "rows": [
+        [
+          "Opening bank balance",
+          "2000.00"
+        ],
+        [
+          "Payout actually received",
+          "4000.00"
+        ],
+        [
+          "Selected operating payments",
+          "-2400.00"
+        ],
+        [
+          "Debt payments",
+          "-900.00"
+        ],
+        [
+          "Capital spending",
+          "-1200.00"
+        ],
+        [
+          "External owner funding",
+          "1500.00"
+        ],
+        [
+          "Owner withdrawal",
+          "-500.00"
+        ],
+        [
+          "Closing bank balance",
+          "2500.00"
+        ]
+      ],
+      "minWidth": 580,
+      "label": "Fictional bank cash bridge"
+    }
   }
 }
